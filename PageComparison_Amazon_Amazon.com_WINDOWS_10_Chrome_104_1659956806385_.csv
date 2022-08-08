@@ -1,0 +1,381 @@
+
+
+***********    Page Summary   **************
+run, id, name, date, time, page, OS name, OS version, browser name, browser version, duration, network, http Request, http response, build DOM, render, total resources, total resources size, total resources duration
+Current Run,0,Amazon Home,2022-08-08,16:36:43,https://www.amazon.com/,WINDOWS,10,Chrome,104,3038,80,152,280,1065,1461,298,3022440,149904.50000000093
+Base Run,0,Amazon Home,2022-08-07,14:00:13,https://www.amazon.com/,WINDOWS,10,Chrome,104,3314,913,534,279,1506,68,300,2971487,102422.0
+
+***********    Page Type Diff Analysis   **************
+type, items, size, duration, comparison result
+link,0,4805,87.90000000037253,found match
+img,-4,31445,41678.39999999874,found match
+script,-1,14690,5081.100000000559,found match
+css,0,0,134.70000000065193,found match
+fetch,2,15,1110.799999999348,found match
+xmlhttprequest,1,-2,140.1000000005588,found match
+beacon,0,0,-527.0999999991618,found match
+other,0,0,-122.10000000009313,found match
+iframe,0,0,-101.30000000004657,found match
+
+***********    Page Resource Diff Analysis   **************
+name, type, size, duration, comparison result
+https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F11EIQ5IGqaL._RC%257C01ZTHTZObnL.css%2C41C-I1lXVwL.css%2C31ufSReDtSL.css%2C013z33uKh2L.css%2C017DsKjNQJL.css%2C0131vqwP5UL.css%2C41EWOOlBJ9L.css%2C11TIuySqr6L.css%2C01ElnPiDxWL.css%2C11Qjwq-j69L.css%2C01Dm5eKVxwL.css%2C01IdKcBuAdL.css%2C01y-XAlI%2B2L.css%2C21P6CS3L9LL.css%2C01oDR3IULNL.css%2C41CYNGpGlrL.css%2C01XPHJk60-L.css%2C01smHc51S9L.css%2C21aPhFy%2BriL.css%2C11gneA3MtJL.css%2C21fecG8pUzL.css%2C01ulGzBW88L.css%2C01CFUgsA-YL.css%2C31C80IiXalL.css%2C11qour3ND0L.css%2C11gKCCKQV%2BL.css%2C11061HxnEvL.css%2C11oHt2HYxnL.css%2C01uPgw4sNAL.css%2C11JQtnL-6eL.css%2C116v6uYvN6L.css%2C11jtXRmppwL.css%2C01QrWuRrZ-L.css%2C21zuRztKjtL.css%2C11QyqG8yiqL.css%2C11K24eOJg4L.css%2C11F2%2BOBzLyL.css%2C01890%2BVwk8L.css%2C11Y05DTEL6L.css%2C01cbS3UK11L.css%2C21F85am0yFL.css%2C01giMEP%2BdjL.css_.css%3FAUIClients%2FAmazonUI%23us.not-trident,link,4307,36.5,found match
+https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41H4XraWzVL._RC%257C71b%2B5XXNBOL.css%2C41j9vvkVW2L.css%2C312TpTsYxPL.css%2C31YZpDCYJPL.css%2C21MKjoYL8wL.css%2C41yQj5y2obL.css%2C01yCq3WXEcL.css%2C11kO7yAgiQL.css%2C31OvHRW%2BXiL.css%2C01XHMOHpK1L.css%2C11iUHDm4--L.css%2C31jJwAF%2ByLL.css%2C01YWmXMYw8L.css_.css%3FAUIClients%2FNavDesktopUberAsset%26eRSuagD1%23desktop.310484-T1,link,0,39.40000000037253,found match
+https://images-na.ssl-images-amazon.com/images/I/41Gc3C8UysL.css?AUIClients/AmazonGatewayAuiAssets,link,498,57.49999999976717,found match
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fstaticb%26id%3DJ5H4CWJW142514FKBBXW:0,img,0,1362.3000000002794,new
+https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png,img,0,51.5,found match
+https://m.media-amazon.com/images/I/61GGOdqTzYL._SX1500_.jpg,img,0,399.60000000032596,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg,img,0,254.59999999962747,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg,img,0,245.1999999997206,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg,img,0,245.80000000004657,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/computer120x._SY85_CB468850970_.jpg,img,0,243.5,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg,img,0,245.00000000023283,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/August/DashboardCard/PS4_120X._SY85_CB438749318_.jpg,img,293,257.20000000018626,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Baby120X._SY85_CB468850882_.jpg,img,0,245.4000000001397,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Toys120X._SY85_CB468851693_.jpg,img,0,245.6999999997206,found match
+https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg,img,24166,693.5999999996275,new
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg,img,0,246.20000000018626,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg,img,0,247.69999999995343,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg,img,0,248.4000000001397,found match
+https://m.media-amazon.com/images/I/41S2fDCwTkL._SY160_.jpg,img,14509,699.2999999998137,new
+https://m.media-amazon.com/images/I/21uoU7j5uxL._SY75_.jpg,img,1972,703.1999999997206,new
+https://m.media-amazon.com/images/I/41x4edhN4EL._SY75_.jpg,img,2302,707.5999999996275,new
+https://m.media-amazon.com/images/I/511qeWcsmIL._SY75_.jpg,img,2085,708.0,new
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg,img,0,271.10000000009313,found match
+https://m.media-amazon.com/images/I/41YyGt8ZxZL._SY160_.jpg,img,0,226.70000000018626,found match
+https://m.media-amazon.com/images/I/31W65BL9JkL._SY75_.jpg,img,0,226.3000000002794,found match
+https://m.media-amazon.com/images/I/31zfE4fiizL._SY75_.jpg,img,0,226.79999999981374,found match
+https://m.media-amazon.com/images/I/31jqcXyW3ML._SY75_.jpg,img,0,226.89999999990687,found match
+https://m.media-amazon.com/images/I/61li1wjVHBL._AC_SY200_.jpg,img,0,229.69999999995343,found match
+https://m.media-amazon.com/images/I/61uqxM5x-1L._AC_SY200_.jpg,img,0,20.199999999953434,found match
+https://m.media-amazon.com/images/I/71HqGW0LKgL._AC_SY200_.jpg,img,0,18.0,found match
+https://m.media-amazon.com/images/I/51ZnBH4OxpL._AC_SY200_.jpg,img,0,229.3000000002794,found match
+https://m.media-amazon.com/images/I/51A+-XkCCkL._AC_SY200_.jpg,img,0,234.10000000009313,found match
+https://m.media-amazon.com/images/I/61oVWsRc1jL._AC_SY200_.jpg,img,0,20.99999999976717,found match
+https://m.media-amazon.com/images/I/61IId+oIO0L._AC_SY200_.jpg,img,0,19.9000000001397,found match
+https://m.media-amazon.com/images/I/71xnxFPlVbL._AC_SY200_.jpg,img,0,133.50000000023283,found match
+https://m.media-amazon.com/images/I/71L2i2B4DIL._AC_SY200_.jpg,img,0,37.89999999990687,found match
+https://m.media-amazon.com/images/I/51Y-pg6uZlL._AC_SY200_.jpg,img,11,134.4000000001397,found match
+https://m.media-amazon.com/images/I/713KIW0HM9L._AC_SY200_.jpg,img,0,37.300000000046566,found match
+https://m.media-amazon.com/images/I/714LjzCB8nL._AC_SY200_.jpg,img,6,29.0999999998603,found match
+https://m.media-amazon.com/images/I/715U4OZgT-L._AC_SY200_.jpg,img,6,40.1999999997206,found match
+https://m.media-amazon.com/images/I/71BApHNqW-L._AC_SY200_.jpg,img,0,37.89999999990687,found match
+https://m.media-amazon.com/images/I/41wjYZ4VYJL._SY160_.jpg,img,0,243.39999999990687,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg,img,0,252.0,found match
+https://m.media-amazon.com/images/I/31qkwPVi8RL._SY75_.jpg,img,0,231.10000000032596,found match
+https://m.media-amazon.com/images/I/31tKXsUuqSL._SY75_.jpg,img,0,239.5,found match
+https://m.media-amazon.com/images/I/21StTUJcMtL._SY75_.jpg,img,0,240.9000000001397,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg,img,0,247.10000000009313,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_1x._SY304_CB639752818_.jpg,img,0,272.79999999981374,found match
+https://m.media-amazon.com/images/I/61RnWcucAJL._AC_SY200_.jpg,img,0,40.0,found match
+https://m.media-amazon.com/images/I/9127lY9p28L._AC_SY200_.jpg,img,10,39.799999999813735,found match
+https://m.media-amazon.com/images/I/71HAFYjIaBL._AC_SY200_.jpg,img,0,245.69999999995343,found match
+https://m.media-amazon.com/images/I/51xyFdG+yNL._AC_SY200_.jpg,img,0,214.80000000004657,found match
+https://m.media-amazon.com/images/I/71ZAoGtFDzL._AC_SY200_.jpg,img,0,214.5999999998603,found match
+https://m.media-amazon.com/images/I/71kkhS+jtEL._AC_SY200_.jpg,img,0,632.1999999997206,found match
+https://m.media-amazon.com/images/I/71J2an0naxL._AC_SY200_.jpg,img,4,421.39999999990687,found match
+https://m.media-amazon.com/images/I/81Y29kSqfhL._AC_SY200_.jpg,img,4742,892.7000000001863,new
+https://m.media-amazon.com/images/I/51Cjfj+zclL._AC_SY200_.jpg,img,0,445.69999999995343,found match
+https://m.media-amazon.com/images/I/61baox2Ih-L._AC_SY200_.jpg,img,-19,846.0,found match
+https://m.media-amazon.com/images/I/81DDpydRSaL._AC_SY200_.jpg,img,1,239.89999999967404,found match
+https://m.media-amazon.com/images/I/91HCW-CnaYL._AC_SY200_.jpg,img,0,840.1999999997206,found match
+https://m.media-amazon.com/images/I/81CFjkMBZ+L._AC_SY200_.jpg,img,18,454.59999999962747,found match
+https://m.media-amazon.com/images/I/611GEnPgfML._AC_SY200_.jpg,img,-43,840.399999999674,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg,img,0,429.10000000032596,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg,img,0,452.10000000032596,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Pets_1X._SY304_CB639746743_.jpg,img,0,451.39999999990687,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Apparel_1x._SY116_CB667159060_.jpg,img,0,452.39999999990687,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Hat_1x._SY116_CB667159060_.jpg,img,0,452.60000000009313,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Figure_1x._SY116_CB667159060_.jpg,img,0,452.3000000002794,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mug_1x._SY116_CB667159063_.jpg,img,0,452.29999999981374,found match
+https://m.media-amazon.com/images/I/41OJMQn2frL._AC_SY200_.jpg,img,0,832.0999999996275,found match
+https://m.media-amazon.com/images/I/81qLNmNOhoL._AC_SY200_.jpg,img,-216,832.3000000000466,found match
+https://m.media-amazon.com/images/I/61M6OTb5ECL._AC_SY200_.jpg,img,29,831.399999999674,found match
+https://m.media-amazon.com/images/I/81K6VI9u9jL._AC_SY200_.jpg,img,0,833.3000000000466,found match
+https://m.media-amazon.com/images/I/512VTViDtrL._AC_SY200_.jpg,img,-335,829.9000000001397,found match
+https://m.media-amazon.com/images/I/51gdiwIxbGL._AC_SY200_.jpg,img,0,832.5,found match
+https://m.media-amazon.com/images/I/71foSNJZ-OL._AC_SY200_.jpg,img,86,832.8000000000466,found match
+https://m.media-amazon.com/images/I/81VrLm+sxcL._AC_SY200_.jpg,img,0,826.9000000001397,found match
+https://m.media-amazon.com/images/I/31Pxhy+Q4iL._AC_SY200_.jpg,img,0,728.5,found match
+https://m.media-amazon.com/images/I/61fxf05IEVL._AC_SY200_.jpg,img,46,827.0,found match
+https://m.media-amazon.com/images/I/71brWizgV0L._AC_SY200_.jpg,img,199,729.399999999674,found match
+https://m.media-amazon.com/images/I/61H+FwIcdYL._AC_SY200_.jpg,img,0,729.1999999997206,found match
+https://m.media-amazon.com/images/I/612C2HJJaRL._AC_SY200_.jpg,img,117,1236.4000000001397,found match
+https://m.media-amazon.com/images/I/4186R2h5DrL._AC_SY200_.jpg,img,0,632.0000000002328,found match
+https://m.media-amazon.com/images/I/61lcGqs9ntL._AC_SY200_.jpg,img,-31,842.100000000326,found match
+https://m.media-amazon.com/images/I/91jVo7ykqxL._AC_SY200_.jpg,img,0,835.5,found match
+https://m.media-amazon.com/images/I/71ayGFDyV4L._AC_SY200_.jpg,img,123,508.5,found match
+https://m.media-amazon.com/images/I/61sHuj5Q7QL._AC_SY200_.jpg,img,0,631.9999999997672,found match
+https://m.media-amazon.com/images/I/81X8vWrXeyS._AC_SY200_.jpg,img,324,837.3000000000466,found match
+https://m.media-amazon.com/images/I/61jQ76eps9L._AC_SY200_.jpg,img,1,632.8999999999069,found match
+https://images-na.ssl-images-amazon.com/images/G/01/personalization/ybh/loading-4x-gray._CB485916920_.gif,img,0,424.10000000009313,found match
+https://m.media-amazon.com/images/I/71sp8pInv9L._AC_SY200_.jpg,img,0,836.7000000001863,found match
+https://assoc-na.associates-amazon.com/abid/um?s=131-1293225-1505201&m=ATVPDKIKX0DER,img,0,1609.7000000001863,new
+https://images-na.ssl-images-amazon.com/images/I/61lemL2h6EL.js?AUIClients/AmazonUIjQuery&KK9dlo3A#412402-T1.412405-T1,script,0,606.9000000001397,found match
+https://images-na.ssl-images-amazon.com/images/I/01rGP6HIADL.js?AUIClients/GenericObservableJS,script,53,645.3000000002794,found match
+https://images-na.ssl-images-amazon.com/images/I/11Sq-M5UoxL._RC%7C41jWkdimWrL.js_.js?AUIClients/AmazonGatewayAuiAssets,script,0,644.1000000000931,found match
+https://m.media-amazon.com/images/S/sash/fe2UeLQmJ11kKHN.png,css,0,882.8000000002794,found match
+https://images-na.ssl-images-amazon.com/images/I/31DEpWC1nGL.js?AUIClients/AmazonGatewayHerotatorJS&PDu43UNw#344985-T1,script,259,901.8000000002794,found match
+https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41Onz%2Bq4UnL._RC%257C71cwmjT1zhL.js%2C01QvReFeJyL.js%2C01phmzCOwJL.js%2C61X9VdT7nML.js%2C41gNKoK0s7L.js%2C115pV8Rl02L.js%2C21QA-szxgvL.js%2C11k47yUMOjL.js%2C41-yzz3IsJL.js%2C51-xVUkFLqL.js%2C31q09M4kHBL.js%2C11lEMI5MhIL.js%2C31zRQYivqLL.js%2C01LEzWzrPZL.js%2C01AqeWA7PKL.js_.js%3FAUIClients%2FNavDesktopUberAsset%26qOwnoY3d%23desktop.language-en.us.375680-T1.420134-T1.366740-T1.310484-T1.437740-T1.444180-T1.395433-T1,script,17400,1201.5,found match
+https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adtag=csm&adflag=-google-adsense.,fetch,15,792.4999999995343,found match
+https://m.media-amazon.com/images/S/sash/ydDD9hnRfziI$y7.png,css,0,865.5999999998603,found match
+https://m.media-amazon.com/images/S/sash/Um6FUNyHlup8DYZ.gif,css,0,856.1000000000931,found match
+https://images-na.ssl-images-amazon.com/images/I/01suh3pFoYL.js?xcp,script,0,364.10000000009313,found match
+https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F11Y%2B5x%2BkkTL._RC%257C51fH61%2BExwL.js%2C11yKORv-GTL.js%2C11giXtZCwVL.js%2C01%2Bz%2BuIeJ-L.js%2C01VRMV3FBdL.js%2C21SDJtBU-PL.js%2C012FVc3131L.js%2C11rRjDLdAVL.js%2C513g-moecaL.js%2C11kWu3cNjYL.js%2C11aKqyRXooL.js%2C11OREnu1epL.js%2C11qVTZscrRL.js%2C21ssiLNIZvL.js%2C0190vxtlzcL.js%2C51%2BN26vFcBL.js%2C01JYHc2oIlL.js%2C31nfKXylf6L.js%2C01ezj5Rkz1L.js%2C11bEz2VIYrL.js%2C31o2NGTXThL.js%2C01rpauTep4L.js%2C013B7CZevpL.js_.js%3FAUIClients%2FAmazonUI,script,0,411.39999999990687,found match
+https://images-na.ssl-images-amazon.com/images/I/51SrwqaWgEL.js?AUIClients/CardJsRuntimeBuzzCopyBuild,script,0,377.70000000018626,found match
+https://www.amazon.com/ah/ajax/counter?ctr=desktop_ajax_atf&exp=1659956920102&rId=J5H4CWJW142514FKBBXW&mkId=ATVPDKIKX0DER&h=f74375b0ba5f97b283458ebfd6a84bff1eb13a1c9bd0b4268f30a85857a3e578,xmlhttprequest,320,324.89999999990687,new
+https://m.media-amazon.com/images/I/71obCNAP0hL._AC_SY200_.jpg,img,0,104.0,found match
+https://m.media-amazon.com/images/I/71s5VxWE6cL._AC_SY200_.jpg,img,0,159.5999999998603,found match
+https://m.media-amazon.com/images/I/61cF5J0nBHL._AC_SY200_.jpg,img,0,141.0999999998603,found match
+https://m.media-amazon.com/images/I/61WXvkV6mIL._AC_SY200_.jpg,img,0,153.89999999990687,found match
+https://m.media-amazon.com/images/I/71toUmutApL._AC_SY200_.jpg,img,0,143.2999999995809,found match
+https://m.media-amazon.com/images/I/91ktfa+F-TL._AC_SY200_.jpg,img,0,163.69999999995343,found match
+https://m.media-amazon.com/images/I/818bmb2pRxL._AC_SY200_.jpg,img,0,153.00000000023283,found match
+https://m.media-amazon.com/images/I/41qCpMHpc0L._AC_SY200_.jpg,img,0,151.50000000023283,found match
+https://m.media-amazon.com/images/I/811jW-BHHIL._AC_SY200_.jpg,img,0,153.89999999990687,found match
+https://m.media-amazon.com/images/I/61DeVisstoL._AC_SY200_.jpg,img,0,142.30000000004657,found match
+https://m.media-amazon.com/images/I/41P+4YVru4L._AC_SY200_.jpg,img,0,154.4000000001397,found match
+https://m.media-amazon.com/images/I/A1IXiTLAXRL._AC_SY200_.jpg,img,0,154.6999999997206,found match
+https://m.media-amazon.com/images/I/71DPL34+BkL._AC_SY200_.jpg,img,0,156.50000000023283,found match
+https://m.media-amazon.com/images/I/51AyJhBLeEL._AC_SY200_.jpg,img,0,165.30000000004657,found match
+https://m.media-amazon.com/images/I/81OPY8BNRPL._AC_SY200_.jpg,img,0,147.20000000018626,found match
+https://m.media-amazon.com/images/I/71eTXg+ZEUL._AC_SY200_.jpg,img,0,163.19999999995343,found match
+https://m.media-amazon.com/images/I/71N2N7WM9-L._AC_SY200_.jpg,img,10569,315.5,new
+https://m.media-amazon.com/images/I/91fp+HWjAlL._AC_SY200_.jpg,img,0,163.70000000018626,found match
+https://m.media-amazon.com/images/I/71W5PeJzC5L._AC_SY200_.jpg,img,0,165.1999999997206,found match
+https://m.media-amazon.com/images/I/71iQIF8+5EL._AC_SY200_.jpg,img,0,164.70000000018626,found match
+https://m.media-amazon.com/images/I/51WOGGO6ahS._AC_SY200_.jpg,img,0,165.4000000001397,found match
+https://m.media-amazon.com/images/I/71v0FHvc3mL._AC_SY200_.jpg,img,-103,249.5,found match
+https://m.media-amazon.com/images/I/81ZPDLNcL8L._AC_SY200_.jpg,img,0,223.99999999976717,found match
+https://m.media-amazon.com/images/I/81yam08hJVL._AC_SY200_.jpg,img,-92,225.5999999998603,found match
+https://m.media-amazon.com/images/I/61gW9S3OHrL._AC_SY200_.jpg,img,0,222.90000000037253,found match
+https://m.media-amazon.com/images/I/71NTHqsqemL._AC_SY200_.jpg,img,-221,225.9000000001397,found match
+https://m.media-amazon.com/images/I/41v3TEUysAL._AC_SY200_.jpg,img,0,239.79999999981374,found match
+https://m.media-amazon.com/images/I/31RfF3tfHZL._AC_SY200_.jpg,img,0,234.3000000002794,found match
+https://m.media-amazon.com/images/I/61CJKRFhX2L._AC_SY200_.jpg,img,0,226.2000000004191,found match
+https://m.media-amazon.com/images/I/71J-nynsFHL._AC_SY200_.jpg,img,-144,232.0,found match
+https://m.media-amazon.com/images/I/71GJpDKTptL._AC_SY200_.jpg,img,9,222.89999999990687,found match
+https://m.media-amazon.com/images/I/41Pz18PhNBL._AC_SY200_.jpg,img,0,245.00000000023283,found match
+https://m.media-amazon.com/images/I/71S7YgslTKL._AC_SY200_.jpg,img,13641,314.10000000009313,new
+https://m.media-amazon.com/images/I/61EVpThr0gL._AC_SY200_.jpg,img,0,235.79999999981374,found match
+https://m.media-amazon.com/images/I/719XdplsTnL._AC_SY200_.jpg,img,0,226.20000000018626,found match
+https://m.media-amazon.com/images/I/71sg5Tq7FnL._AC_SY200_.jpg,img,0,43.300000000046566,found match
+https://m.media-amazon.com/images/I/81yl7p9LtWL._AC_SY200_.jpg,img,0,229.1999999997206,found match
+https://m.media-amazon.com/images/I/71vy46A5DRL._AC_SY200_.jpg,img,0,226.60000000009313,found match
+https://m.media-amazon.com/images/I/61-JvtMpnVL._AC_SY200_.jpg,img,0,225.89999999990687,found match
+https://m.media-amazon.com/images/I/A1tUWtGQ4UL._AC_SY200_.jpg,img,13493,317.0,new
+https://m.media-amazon.com/images/I/817uMWtBsaL._AC_SY200_.jpg,img,8017,315.89999999990687,new
+https://m.media-amazon.com/images/I/41wgZeXn6XL._AC_SY200_.jpg,img,-11,42.699999999953434,found match
+https://m.media-amazon.com/images/I/713xISrpZtL._AC_SY200_.jpg,img,5332,317.40000000037253,new
+https://m.media-amazon.com/images/I/61fuWCJ3cRL._AC_SY200_.jpg,img,3299,313.0,new
+https://m.media-amazon.com/images/I/314qP-UVXXL._AC_SY200_.jpg,img,0,56.299999999580905,found match
+https://m.media-amazon.com/images/I/611ZD+L8D8L._AC_SY200_.jpg,img,0,55.200000000186265,found match
+https://m.media-amazon.com/images/I/71vpCA4HZ5L._AC_SY200_.jpg,img,20,56.10000000009313,found match
+https://m.media-amazon.com/images/I/71sy0LMdqYL._AC_SY200_.jpg,img,0,57.200000000186265,found match
+https://m.media-amazon.com/images/I/81N9hDRLo+L._AC_SY200_.jpg,img,-198,49.300000000046566,found match
+https://m.media-amazon.com/images/I/81t1dQnuAcS._AC_SY200_.jpg,img,0,50.0,found match
+https://m.media-amazon.com/images/I/81N71w12lJL._AC_SY200_.jpg,img,17636,314.10000000009313,new
+https://m.media-amazon.com/images/I/71Ycukkas0L._AC_SY200_.jpg,img,135,56.89999999990687,found match
+https://m.media-amazon.com/images/I/71AepCQ9LzL._AC_SY200_.jpg,img,0,65.89999999990687,found match
+https://m.media-amazon.com/images/I/71OygKIIQrL._AC_SY200_.jpg,img,0,54.800000000046566,found match
+https://m.media-amazon.com/images/I/81C8Z5Lv+yS._AC_SY200_.jpg,img,-142,64.4000000001397,found match
+https://m.media-amazon.com/images/I/61KRwYQ247L._AC_SY200_.jpg,img,0,55.200000000186265,found match
+https://m.media-amazon.com/images/I/71-fUK1HwzL._AC_SY200_.jpg,img,0,-147.20000000018626,found match
+https://m.media-amazon.com/images/I/61TiR+2eQ7L._AC_SY200_.jpg,img,0,55.8000000002794,found match
+https://m.media-amazon.com/images/I/716err-TVSL._AC_SY200_.jpg,img,0,97.3000000002794,found match
+https://m.media-amazon.com/images/I/718gFrWuDhL._AC_SY200_.jpg,img,-13,99.60000000032596,found match
+https://m.media-amazon.com/images/I/911kIJJ+IhL._AC_SY200_.jpg,img,0,98.99999999976717,found match
+https://m.media-amazon.com/images/I/61nuzKfqEiL._AC_SY200_.jpg,img,104,-150.00000000023283,found match
+https://m.media-amazon.com/images/I/71efKAEbFqL._AC_SY200_.jpg,img,8251,316.20000000018626,new
+https://m.media-amazon.com/images/I/51jyO7XvhJL._AC_SY200_.jpg,img,0,-151.39999999967404,found match
+https://m.media-amazon.com/images/I/71OXN4dUUwL._AC_SY200_.jpg,img,4141,315.89999999990687,new
+https://m.media-amazon.com/images/I/81er5U4w5nL._AC_SY200_.jpg,img,-66,-152.80000000004657,found match
+https://m.media-amazon.com/images/I/61smKDrU19L._AC_SY200_.jpg,img,0,-150.4000000001397,found match
+https://m.media-amazon.com/images/I/71ozPFxkMTL._AC_SY200_.jpg,img,0,-364.99999999976717,found match
+https://m.media-amazon.com/images/I/91WJjJJI1uL._AC_SY200_.jpg,img,-100,-365.10000000009313,found match
+https://m.media-amazon.com/images/I/71A92MS86iL._AC_SY200_.jpg,img,-35,-215.8000000002794,found match
+https://m.media-amazon.com/images/I/81aBEXy7zfL._AC_SY200_.jpg,img,0,-177.90000000037253,found match
+https://m.media-amazon.com/images/I/71RAJZm38IL._AC_SY200_.jpg,img,0,-177.10000000009313,found match
+https://m.media-amazon.com/images/I/51GcKWscRGL._AC_SY200_.jpg,img,0,-177.6999999997206,found match
+https://m.media-amazon.com/images/I/61cfgUUgxfL._AC_SY200_.jpg,img,160,-178.09999999962747,found match
+https://m.media-amazon.com/images/I/81hVWhZmfDL._AC_SY200_.jpg,img,0,-213.00000000023283,found match
+https://m.media-amazon.com/images/I/81vvbyUCEIL._AC_SY200_.jpg,img,0,-212.69999999995343,found match
+https://m.media-amazon.com/images/I/61igt5bQrVL._AC_SY200_.jpg,img,0,154.79999999981374,found match
+https://m.media-amazon.com/images/I/61iQStFCuqL._AC_SY200_.jpg,img,0,164.39999999990687,found match
+https://m.media-amazon.com/images/I/71pyEuocqGL._AC_SY200_.jpg,img,0,166.29999999981374,found match
+https://m.media-amazon.com/images/I/71pSf0U3VEL._AC_SY200_.jpg,img,0,168.39999999990687,found match
+https://m.media-amazon.com/images/I/41vhPGnLpcL._AC_SY200_.jpg,img,0,164.49999999976717,found match
+https://m.media-amazon.com/images/I/51YM3bASHDL._AC_SY200_.jpg,img,0,170.19999999995343,found match
+https://m.media-amazon.com/images/I/91uxrAJV31L._AC_SY200_.jpg,img,0,166.4000000001397,found match
+https://m.media-amazon.com/images/I/71N+ot6tNoL._AC_SY200_.jpg,img,-142,161.5,found match
+https://m.media-amazon.com/images/I/81Pt9XY+SRS._AC_SY200_.jpg,img,0,-261.40000000037253,found match
+https://m.media-amazon.com/images/I/71ZvCIa+95L._AC_SY200_.jpg,img,0,245.80000000004657,found match
+https://m.media-amazon.com/images/I/91-Qm7whvoL._AC_SY200_.jpg,img,0,249.10000000009313,found match
+https://m.media-amazon.com/images/I/51JvrrMtABL._AC_SY200_.jpg,img,6,247.49999999976717,found match
+https://m.media-amazon.com/images/I/31ic4Ur6CDL._AC_SY200_.jpg,img,-65,243.10000000009313,found match
+https://m.media-amazon.com/images/I/81hInrBDwpL._AC_SY200_.jpg,img,0,244.9000000001397,found match
+https://m.media-amazon.com/images/I/71L6uREmXaS._AC_SY200_.jpg,img,0,244.49999999976717,found match
+https://m.media-amazon.com/images/I/A1Q9ncuusmL._AC_SY200_.jpg,img,0,245.5,found match
+https://m.media-amazon.com/images/I/71zzvfWuiyL._AC_SY200_.jpg,img,-83,247.9000000001397,found match
+https://m.media-amazon.com/images/I/711alu7XcnL._AC_SY200_.jpg,img,15358,297.79999999981374,new
+https://m.media-amazon.com/images/I/61Tz4KrEstL._AC_SY200_.jpg,img,0,245.5,found match
+https://m.media-amazon.com/images/I/61jVS3PgkkL._AC_SY200_.jpg,img,6029,315.59999999962747,new
+https://m.media-amazon.com/images/I/419qcWza6hL._AC_SY200_.jpg,img,0,248.79999999981374,found match
+https://m.media-amazon.com/images/I/71pUibkNkhL._AC_SY200_.jpg,img,0,47.50000000023283,found match
+https://m.media-amazon.com/images/I/61Dfp2AAAXL._AC_SY200_.jpg,img,0,44.3000000002794,found match
+https://m.media-amazon.com/images/I/71R7oDu4B4L._AC_SY200_.jpg,img,0,45.799999999813735,found match
+https://m.media-amazon.com/images/I/710GFECL8yL._AC_SY200_.jpg,img,0,50.199999999953434,found match
+https://m.media-amazon.com/images/I/61jfb9pjLDL._AC_SY200_.jpg,img,0,51.199999999953434,found match
+https://m.media-amazon.com/images/I/61MoBAUeptL._AC_SY200_.jpg,img,0,48.50000000023283,found match
+https://m.media-amazon.com/images/I/51Eo5CB8BtL._AC_SY200_.jpg,img,0,48.199999999953434,found match
+https://m.media-amazon.com/images/I/713ZsbaWovL._AC_SY200_.jpg,img,0,48.300000000046566,found match
+https://m.media-amazon.com/images/I/71F-uWMYPbL._AC_SY200_.jpg,img,0,49.799999999813735,found match
+https://m.media-amazon.com/images/I/71cY+1dSNnL._AC_SY200_.jpg,img,-2,49.49999999976717,found match
+https://m.media-amazon.com/images/I/71zkP4H55gL._AC_SY200_.jpg,img,0,48.699999999953434,found match
+https://m.media-amazon.com/images/I/71exbJ4BIdL._AC_SY200_.jpg,img,0,51.5,found match
+https://m.media-amazon.com/images/I/81CFOwoLVlL._AC_SY200_.jpg,img,141,44.60000000032596,found match
+https://m.media-amazon.com/images/I/61xBN32-0wL._AC_SY200_.jpg,img,0,52.0,found match
+https://m.media-amazon.com/images/I/81MuAQxABTL._AC_SY200_.jpg,img,-34,55.700000000186265,found match
+https://m.media-amazon.com/images/I/51crxlRJKNL._AC_SY200_.jpg,img,87,46.39999999990687,found match
+https://m.media-amazon.com/images/I/61ZkyXMX-TL._AC_SY200_.jpg,img,0,47.800000000046566,found match
+https://m.media-amazon.com/images/I/61yuaHS-VZL._AC_SY200_.jpg,img,8,50.6999999997206,found match
+https://m.media-amazon.com/images/I/81PLjDzsXvL._AC_SY200_.jpg,img,-30,48.90000000037253,found match
+https://m.media-amazon.com/images/I/51KwSTMHRkL._AC_SY200_.jpg,img,0,49.799999999813735,found match
+https://m.media-amazon.com/images/I/61+SmoPb1VL._AC_SY200_.jpg,img,5419,316.79999999981374,new
+https://m.media-amazon.com/images/I/61K0-3+Vl1L._AC_SY200_.jpg,img,-8,47.49999999976717,found match
+https://m.media-amazon.com/images/I/91uYmqnZ1VL._AC_SY200_.jpg,img,-140,52.00000000023283,found match
+https://www.amazon.com/cross_border_interstitial/render,xmlhttprequest,0,-1.2999999998137355,found match
+https://www.amazon.com/empty.gif?1659956802061,img,343,744.3000000002794,new
+https://completion.amazon.com/api/2017/suggestions,xmlhttprequest,0,498.5,found match
+https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod,beacon,0,12.800000000512227,found match
+https://m.media-amazon.com/images/S/sash/x6ok$LYiGGUKJXl.png,css,0,77.4000000001397,found match
+https://www.amazon.com/portal-migration/hz/glow/get-rendered-toaster?pageType=Gateway&aisTransitionState=in&rancorLocationSource=IP_GEOLOCATION&_=1659956802553,xmlhttprequest,1127,436.90000000037253,new
+https://images-na.ssl-images-amazon.com/images/I/01JqOTGW4hL.css?xcp,link,0,-45.49999999976717,found match
+https://m.media-amazon.com/images/I/51BNzDmnUqL._SX1500_.jpg,img,0,31.699999999953434,found match
+https://m.media-amazon.com/images/I/51pTbx2f89L._SX1500_.jpg,img,0,50.0999999998603,found match
+https://m.media-amazon.com/images/I/51kyN9jKbJL._SX1500_.jpg,img,0,30.699999999720603,found match
+https://m.media-amazon.com/images/I/71qid7QFWJL._SX3000_.jpg,img,0,26.40000000037253,found match
+https://m.media-amazon.com/images/I/717OO5QwJnL._SX3000_.jpg,img,0,28.300000000046566,found match
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:browserQuiteFn&pc=2595&at=2595&t=1659956802901&csmtags=aui|aui:aui_build_date:3.22.2-2022-08-04|mutObsYes|mutObsActive|navbar|fls-na-amazon-com|perfYes|gwCFImgNoCache|aui:sw:page_proxy:no_ctrl|adblk_no|threeColumn|threeColumnRevised|flexLayout|cssGridLayout|browserQuiteFn&viz=visible:3&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,193.5,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3AbrowserQuiteFn%26pc%3D2595%26at%3D2595%26t%3D1659956802901%26csmtags%3Daui%7Caui%3Aaui_build_date%3A3.22.2-2022-08-04%7CmutObsYes%7CmutObsActive%7Cnavbar%7Cfls-na-amazon-com%7CperfYes%7CgwCFImgNoCache%7Caui%3Asw%3Apage_proxy%3Ano_ctrl%7Cadblk_no%7CthreeColumn%7CthreeColumnRevised%7CflexLayout%7CcssGridLayout%7CbrowserQuiteFn%26viz%3Dvisible%3A3%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2595,img,0,112.5,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26sc0%3Daui%3Asw%3Appft%3Acallback_ricb%26bb0%3D181%26pc0%3D1276%26ld0%3D1276%26t0%3D1659956801582%26sc1%3Dportal-bb%26pc1%3D37%26ld1%3D37%26t1%3D1659956800561%26sc2%3Dh1Af%26cf2%3D419%26pc2%3D419%26ld2%3D419%26t2%3D1659956800725%26sc3%3Ddesktop-banner-stripe-visible%26cf3%3D419%26pc3%3D419%26ld3%3D419%26t3%3D1659956800725%26sc4%3Ddesktop-grid-1-D1-visible%26cf4%3D423%26pc4%3D423%26ld4%3D423%26t4%3D1659956800729%26sc5%3DnavCF%26cf5%3D443%26pc5%3D443%26ld5%3D443%26t5%3D1659956800749%26sc6%3DcsmCELLSframework%26bb6%3D475%26pc6%3D475%26ld6%3D475%26t6%3D1659956800781%26sc7%3DcsmCELLSpdm%26bb7%3D476%26pc7%3D947%26ld7%3D947%26t7%3D1659956801253%26sc8%3DcsmCELLSvpm%26bb8%3D948%26pc8%3D948%26ld8%3D948%26t8%3D1659956801254%26sc9%3DcsmCELLSfem%26bb9%3D948%26pc9%3D948%26ld9%3D948%26t9%3D1659956801254%26sc10%3Due_sushi_v1%26bb10%3D949%26pc10%3D950%26ld10%3D950%26t10%3D1659956801256%26sc11%3Dgw-ftGr-desktop-hero-1-visible%26cf11%3D1198%26pc11%3D1198%26ld11%3D1198%26t11%3D1659956801504%26sc12%3Ddesktop-grid-2-visible%26cf12%3D1198%26pc12%3D1198%26ld12%3D1198%26t12%3D1659956801504%26sc13%3Ddesktop-grid-1-visible%26cf13%3D1198%26pc13%3D1198%26ld13%3D1198%26t13%3D1659956801504%26sc14%3Ddesktop-grid-1-D2-visible%26cf14%3D1199%26pc14%3D1199%26ld14%3D1199%26t14%3D1659956801505%26sc15%3Ddesktop-grid-1-D2-active%26cf15%3D1199%26pc15%3D1199%26ld15%3D1199%26t15%3D1659956801505%26sc16%3Ddesktop-grid-3-visible%26cf16%3D1272%26pc16%3D1272%26ld16%3D1272%26t16%3D1659956801578%26sc17%3Ddesktop-grid-4-visible%26cf17%3D1272%26pc17%3D1272%26ld17%3D1272%26t17%3D1659956801578%26sc18%3Ddesktop-grid-5-visible%26cf18%3D1272%26pc18%3D1272%26ld18%3D1272%26t18%3D1659956801578%26sc19%3Ddesktop-grid-6-visible%26cf19%3D1272%26pc19%3D1272%26ld19%3D1272%26t19%3D1659956801578%26sc20%3Ddesktop-1-visible%26cf20%3D1272%26pc20%3D1272%26ld20%3D1272%26t20%3D1659956801578%26sc21%3Ddesktop-2-visible%26cf21%3D1273%26pc21%3D1273%26ld21%3D1273%26t21%3D1659956801579%26sc22%3Ddesktop-btf-grid-2-visible%26cf22%3D1274%26pc22%3D1274%26ld22%3D1274%26t22%3D1659956801580%26sc23%3Ddesktop-btf-grid-3-visible%26cf23%3D1274%26pc23%3D1274%26ld23%3D1274%26t23%3D1659956801580%26sc24%3Ddesktop-btf-grid-4-visible%26cf24%3D1274%26pc24%3D1274%26ld24%3D1274%26t24%3D1659956801580%26sc25%3Ddesktop-grid-7-visible%26cf25%3D1274%26pc25%3D1274%26ld25%3D1274%26t25%3D1659956801580%26sc26%3Ddesktop-btf-grid-1-visible%26cf26%3D1274%26pc26%3D1274%26ld26%3D1274%26t26%3D1659956801580%26sc27%3Ddesktop-3-visible%26cf27%3D1274%26pc27%3D1274%26ld27%3D1274%26t27%3D1659956801580%26sc28%3Ddesktop-btf-grid-7-visible%26cf28%3D1274%26pc28%3D1274%26ld28%3D1274%26t28%3D1659956801580%26sc29%3Ddesktop-btf-grid-6-visible%26cf29%3D1276%26pc29%3D1276%26ld29%3D1276%26t29%3D1659956801582%26sc30%3Ddesktop-btf-grid-8-visible%26cf30%3D1276%26pc30%3D1276%26ld30%3D1276%26t30%3D1659956801582%26sc31%3Ddesktop-btf-grid-5-visible%26cf31%3D1276%26pc31%3D1276%26ld31%3D1276%26t31%3D1659956801582%26sc32%3DspLoadJs%26cf32%3D1277%26pc32%3D1277%26ld32%3D1277%26t32%3D1659956801583%26sc33%3Ddesktop-5-visible%26cf33%3D1404%26pc33%3D1404%26ld33%3D1404%26t33%3D1659956801710%26sc34%3Ddesktop-6-visible%26cf34%3D1405%26pc34%3D1405%26ld34%3D1405%26t34%3D1659956801711%26sc35%3Ddesktop-7-visible%26cf35%3D1405%26pc35%3D1405%26ld35%3D1405%26t35%3D1659956801711%26sc36%3Ddesktop-4-visible%26cf36%3D1405%26pc36%3D1405%26ld36%3D1405%26t36%3D1659956801711%26sc37%3DjQueryReady%26cf37%3D1457%26pc37%3D1457%26ld37%3D1457%26t37%3D1659956801763%26sc38%3Dgateway-asset-load%26cf38%3D1459%26pc38%3D1459%26ld38%3D1459%26t38%3D1659956801765%26sc39%3DgwGridInit%26cf39%3D1459%26pc39%3D1459%26ld39%3D1459%26t39%3D1659956801765%26sc40%3DgwBTFGridInit%26cf40%3D1463%26pc40%3D1463%26ld40%3D1463%26t40%3D1659956801769%26sc41%3Dhero-first-image%26cf41%3D1539%26pc41%3D1539%26ld41%3D1539%26t41%3D1659956801845%26sc42%3Ddesktop-grid-1-D1-active%26cf42%3D1834%26pc42%3D1834%26ld42%3D1834%26t42%3D1659956802140%26sc43%3DgwLayoutReady%26cf43%3D2008%26pc43%3D2008%26ld43%3D2008%26t43%3D1659956802314%26sc44%3DgwAUIReady%26cf44%3D2012%26pc44%3D2012%26ld44%3D2012%26t44%3D1659956802318%26sc45%3Dgw-hero-btf-populate%26cf45%3D2333%26pc45%3D2333%26ld45%3D2333%26t45%3D1659956802639%26sc46%3DgwHerotatorActive%26cf46%3D2351%26pc46%3D2351%26ld46%3D2351%26t46%3D1659956802657%26sc47%3Dgw-ftGr-desktop-hero-4-visible%26cf47%3D2548%26pc47%3D2548%26ld47%3D2548%26t47%3D1659956802854%26sc48%3Dgw-ftGr-desktop-hero-2-visible%26cf48%3D2548%26pc48%3D2548%26ld48%3D2548%26t48%3D1659956802854%26sc49%3Dgw-ftGr-desktop-hero-3-visible%26cf49%3D2572%26pc49%3D2572%26ld49%3D2572%26t49%3D1659956802878%26ctb%3D1:2595,img,0,232.20000000018626,new
+https://www.amazon.com/rd/uedata?ld&v=0.228980.0&id=J5H4CWJW142514FKBBXW&sw=1280&sh=1024&vw=1017&vh=827&m=1&sc=J5H4CWJW142514FKBBXW&ue=3&bb=218&ns=262&ne=417&be=473&fp=410&fcp=410&cf=1198&af=1272&fn=1272&pc=2589&tc=-394&na_=-394&ul_=-1659956800306&_ul=-1659956800306&rd_=-1659956800306&_rd=-1659956800306&fe_=-388&lk_=-388&_lk=-388&co_=-387&_co=-314&sc_=-336&rq_=-314&rs_=-162&_rs=118&dl_=-31&di_=1183&de_=1183&_de=1183&_dc=2589&ld_=2589&_ld=-1659956800306&ntd=0&ty=0&rc=0&hob=1&hoe=3&ld=2590&t=1659956802896&ctb=1&rt=cf:66-0-3-63-2-0-0_af:66-0-3-63-2-0-0_ld:235-8-4-215-6-0-1&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,243.6999999997206,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26sw%3D1280%26sh%3D1024%26vw%3D1017%26vh%3D827%26m%3D1%26sc%3DJ5H4CWJW142514FKBBXW%26ue%3D3%26bb%3D218%26ns%3D262%26ne%3D417%26be%3D473%26fp%3D410%26fcp%3D410%26cf%3D1198%26af%3D1272%26fn%3D1272%26pc%3D2589%26tc%3D-394%26na_%3D-394%26ul_%3D-1659956800306%26_ul%3D-1659956800306%26rd_%3D-1659956800306%26_rd%3D-1659956800306%26fe_%3D-388%26lk_%3D-388%26_lk%3D-388%26co_%3D-387%26_co%3D-314%26sc_%3D-336%26rq_%3D-314%26rs_%3D-162%26_rs%3D118%26dl_%3D-31%26di_%3D1183%26de_%3D1183%26_de%3D1183%26_dc%3D2589%26ld_%3D2589%26_ld%3D-1659956800306%26ntd%3D0%26ty%3D0%26rc%3D0%26hob%3D1%26hoe%3D3%26ld%3D2590%26t%3D1659956802896%26ctb%3D1%26rt%3Dcf%3A66-0-3-63-2-0-0_af%3A66-0-3-63-2-0-0_ld%3A235-8-4-215-6-0-1%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2603,img,0,232.10000000009313,new
+https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod,xmlhttprequest,0,-9.300000000046566,found match
+https://images-na.ssl-images-amazon.com/images/I/31YXrY93hfL.js,script,0,-48.00000000046566,found match
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3DjQueryDomReady%26cf0%3D2620%26pc0%3D2620%26ld0%3D2620%26t0%3D1659956802926%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2620,img,0,216.60000000009313,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3Ddesktop-1-active%26cf0%3D2620%26pc0%3D2620%26ld0%3D2620%26t0%3D1659956802926%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2620,img,0,215.59999999962747,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3Ddesktop-2-active%26cf0%3D2620%26pc0%3D2620%26ld0%3D2620%26t0%3D1659956802926%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2620,img,0,358.5,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3Ddesktop-3-active%26cf0%3D2620%26pc0%3D2620%26ld0%3D2620%26t0%3D1659956802926%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2620,img,0,358.89999999990687,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3Ddesktop-4-active%26cf0%3D2620%26pc0%3D2620%26ld0%3D2620%26t0%3D1659956802926%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2620,img,0,359.39999999990687,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3Ddesktop-5-active%26cf0%3D2620%26pc0%3D2620%26ld0%3D2620%26t0%3D1659956802926%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2620,img,0,358.29999999981374,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3Ddesktop-6-active%26cf0%3D2620%26pc0%3D2620%26ld0%3D2620%26t0%3D1659956802926%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2621,img,0,359.29999999981374,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3Ddesktop-7-active%26cf0%3D2621%26pc0%3D2621%26ld0%3D2621%26t0%3D1659956802927%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2621,img,0,358.70000000018626,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3DjQueryWindowLoad%26cf0%3D2623%26pc0%3D2623%26ld0%3D2623%26t0%3D1659956802929%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2623,img,0,354.60000000009313,new
+https://www.amazon.com/gp/product/sessionCacheUpdateHandler.html,xmlhttprequest,0,-277.89999999967404,found match
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:startVL&pc=2658&at=2658&t=1659956802964&csmtags=startVL&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,388.5,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3AstartVL%26pc%3D2658%26at%3D2658%26t%3D1659956802964%26csmtags%3DstartVL%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2659,img,0,313.6999999997206,new
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:vl50&vl50=724&pc=2659&at=2659&t=1659956802965&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,387.89999999990687,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3Avl50%26vl50%3D724%26pc%3D2659%26at%3D2659%26t%3D1659956802965%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2660,img,0,313.39999999990687,new
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:vl90&vl90=725&pc=2660&at=2660&t=1659956802966&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,519.1999999997206,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3Avl90%26vl90%3D725%26pc%3D2660%26at%3D2660%26t%3D1659956802966%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2660,img,0,312.40000000037253,new
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:vl100&vl100=725&pc=2661&at=2661&t=1659956802967&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,387.1999999997206,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3Avl100%26vl100%3D725%26pc%3D2661%26at%3D2661%26t%3D1659956802967%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2667,img,0,312.20000000018626,new
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:endVL&pc=2667&at=2667&t=1659956802973&csmtags=endVL&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,386.20000000018626,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3AendVL%26pc%3D2667%26at%3D2667%26t%3D1659956802973%26csmtags%3DendVL%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2667,img,0,310.40000000037253,new
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:si&si=698&pc=2667&at=2667&t=1659956802973&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,507.60000000009313,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3Asi%26si%3D698%26pc%3D2667%26at%3D2667%26t%3D1659956802973%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2668,img,0,310.5,new
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:atfsi&atfsi=698&pc=2668&at=2668&t=1659956802974&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,387.29999999981374,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3Aatfsi%26atfsi%3D698%26pc%3D2668%26at%3D2668%26t%3D1659956802974%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2668,img,0,309.39999999990687,new
+https://m.media-amazon.com/images/I/61GGOdqTzYL._SX1500_.jpg,xmlhttprequest,-93721,-286.50000000023283,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg,xmlhttprequest,-4468,-433.60000000009313,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg,xmlhttprequest,-4888,-444.80000000004657,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg,xmlhttprequest,-2845,-444.39999999990687,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg,xmlhttprequest,-2730,-444.9000000001397,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/computer120x._SY85_CB468850970_.jpg,xmlhttprequest,-3189,-444.1999999997206,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/August/DashboardCard/PS4_120X._SY85_CB438749318_.jpg,xmlhttprequest,-1855,-433.5,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Baby120X._SY85_CB468850882_.jpg,xmlhttprequest,-1958,-446.00000000023283,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Toys120X._SY85_CB468851693_.jpg,xmlhttprequest,-2614,-443.6999999997206,found match
+https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg,xmlhttprequest,0,2.400000000372529,new
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg,xmlhttprequest,-9488,-443.10000000032596,found match
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg,xmlhttprequest,-12141,-444.00000000023283,found match
+https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2,css,0,-321.89999999990687,found match
+https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2,css,0,-322.0,found match
+https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2,css,0,-327.10000000009313,found match
+https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2,css,0,-324.0,found match
+https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2,css,0,-327.80000000004657,found match
+https://m.media-amazon.com/images/S/sash/2SazJx$EeTHfhMN.woff2,css,0,-307.19999999995343,found match
+https://m.media-amazon.com/images/S/sash/ozb5-CLHQWI6Soc.woff2,css,0,-309.00000000023283,found match
+https://m.media-amazon.com/images/S/sash/KwhNPG8Jz-Vz2X7.woff2,css,0,-308.1999999994878,found match
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=J5H4CWJW142514FKBBXW&m=1&sc=csa:lcp&lcp=1331&pc=2714&at=2714&t=1659956803020&csmtags=aui:sw:browser:unregister:supported&pty=Gateway&spty=desktop&pti=desktop&tid=J5H4CWJW142514FKBBXW&aftb=1,img,371,370.8000000002794,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26m%3D1%26sc%3Dcsa%3Alcp%26lcp%3D1331%26pc%3D2714%26at%3D2714%26t%3D1659956803020%26csmtags%3Daui%3Asw%3Abrowser%3Aunregister%3Asupported%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2715,img,0,268.60000000009313,new
+https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg,img,0,237.39999999990687,found match
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:131-1293225-1505201:J5H4CWJW142514FKBBXW$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3DJ5H4CWJW142514FKBBXW%26ctb%3D1%26sc0%3Dglow-toaster-api-timer-DESKTOP%26bb0%3D2246%26pc0%3D2821%26ld0%3D2821%26t0%3D1659956803127%26csmtags%3Daui%7Caui%3Aajax%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3DJ5H4CWJW142514FKBBXW%26aftb%3D1:2821,img,0,185.0,new
+https://www.amazon.com/favicon.ico,other,0,-122.10000000009313,found match
+https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg,img,0,337.99999999976717,found match
+https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=010186d9e45a737df87b682c7c96ea651fd0243597cab32ff8ee80546465fa093a9e&old_oo=0&ts=1659956800113&s=AXXjja1GIE-lle9QvYYP_cGYRUBArSC00O93xg2EIvqo&gdpr_consent=&gdpr_consent_avl=&cb=1659956800113,iframe,0,518.6000000000931,new
+https://fls-na.amazon.com/1/batch/1/OE/,beacon,0,108.8000000002794,new
+https://dr3fr5q4g2ul9.cloudfront.net/?08c90ce6-c28f-d073-c648-dc7e35a2d4eb,fetch,0,57.799999999813735,new
+https://d2ef20sk9hi1u3.cloudfront.net/?08c90ce6-c28f-d073-c648-dc7e35a2d4eb,fetch,0,260.5,new
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fstaticb%26id%3D7XXA2CZW5QPH3AJBTTNV:0,img,0,-484.5999999998603,exist only in reference
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/Fuji_dash_dress_1X._SY304_CB626369146_.jpg,img,-19746,-447.0999999998603,exist only in reference
+https://m.media-amazon.com/images/I/61xLblri-cL._AC_SY230_.jpg,img,-28397,-581.5999999998603,exist only in reference
+https://m.media-amazon.com/images/I/81zfcc4Rk3L._AC_SY200_.jpg,img,-10635,-471.0,exist only in reference
+https://assoc-na.associates-amazon.com/abid/um?s=146-2212464-6392567&m=ATVPDKIKX0DER,img,0,-841.0999999998603,exist only in reference
+https://images-na.ssl-images-amazon.com/images/I/3187pEDwpeL.js?xcp,script,-3022,-23.699999999953434,exist only in reference
+https://www.amazon.com/ah/ajax/counter?ctr=desktop_ajax_atf&exp=1659861130339&rId=7XXA2CZW5QPH3AJBTTNV&mkId=ATVPDKIKX0DER&h=fc2600f1e7c5aed579a8dfc672d45dfc92230e09b5e957d0052471f766d1836e,xmlhttprequest,-320,-148.10000000009313,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:browserQuiteFn&pc=1701&at=1701&t=1659861012219&csmtags=aui|aui:aui_build_date:3.22.2-2022-08-04|mutObsYes|mutObsActive|navbar|gwCFImgNoCache|fls-na-amazon-com|perfYes|fy_cdn_fr|fy_cdn_mp|aui:sw:page_proxy:no_ctrl|browserQuiteFn&viz=visible:68&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-400.19999999995343,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3AbrowserQuiteFn%26pc%3D1701%26at%3D1701%26t%3D1659861012219%26csmtags%3Daui%7Caui%3Aaui_build_date%3A3.22.2-2022-08-04%7CmutObsYes%7CmutObsActive%7Cnavbar%7CgwCFImgNoCache%7Cfls-na-amazon-com%7CperfYes%7Cfy_cdn_fr%7Cfy_cdn_mp%7Caui%3Asw%3Apage_proxy%3Ano_ctrl%7CbrowserQuiteFn%26viz%3Dvisible%3A68%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:1696,img,0,-439.80000000004657,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26sc0%3Daui%3Asw%3Appft%3Acallback_ricb%26bb0%3D348%26pc0%3D1665%26ld0%3D1665%26t0%3D1659861012183%26sc1%3Dportal-bb%26pc1%3D13%26ld1%3D13%26t1%3D1659861010977%26sc2%3Dgw-ftGr-desktop-hero-1-visible%26cf2%3D896%26pc2%3D896%26ld2%3D896%26t2%3D1659861011414%26sc3%3Dh1Af%26cf3%3D934%26pc3%3D934%26ld3%3D934%26t3%3D1659861011452%26sc4%3Ddesktop-banner-stripe-visible%26cf4%3D935%26pc4%3D935%26ld4%3D935%26t4%3D1659861011453%26sc5%3Ddesktop-grid-1-visible%26cf5%3D939%26pc5%3D939%26ld5%3D939%26t5%3D1659861011457%26sc6%3Ddesktop-grid-2-visible%26cf6%3D939%26pc6%3D939%26ld6%3D939%26t6%3D1659861011457%26sc7%3Ddesktop-grid-3-visible%26cf7%3D940%26pc7%3D940%26ld7%3D940%26t7%3D1659861011458%26sc8%3Ddesktop-grid-1-D1-visible%26cf8%3D940%26pc8%3D940%26ld8%3D940%26t8%3D1659861011458%26sc9%3Ddesktop-grid-1-D2-visible%26cf9%3D1040%26pc9%3D1040%26ld9%3D1040%26t9%3D1659861011558%26sc10%3Ddesktop-grid-1-D2-active%26cf10%3D1040%26pc10%3D1040%26ld10%3D1040%26t10%3D1659861011558%26sc11%3Ddesktop-grid-4-visible%26cf11%3D1040%26pc11%3D1041%26ld11%3D1041%26t11%3D1659861011559%26sc12%3Ddesktop-grid-5-visible%26cf12%3D1041%26pc12%3D1041%26ld12%3D1041%26t12%3D1659861011559%26sc13%3Ddesktop-grid-6-visible%26cf13%3D1043%26pc13%3D1043%26ld13%3D1043%26t13%3D1659861011561%26sc14%3Ddesktop-grid-7-visible%26cf14%3D1044%26pc14%3D1044%26ld14%3D1044%26t14%3D1659861011562%26sc15%3DspLoadJs%26cf15%3D1048%26pc15%3D1048%26ld15%3D1048%26t15%3D1659861011566%26sc16%3Ddesktop-1-visible%26cf16%3D1062%26pc16%3D1062%26ld16%3D1062%26t16%3D1659861011580%26sc17%3Ddesktop-2-visible%26cf17%3D1064%26pc17%3D1064%26ld17%3D1064%26t17%3D1659861011582%26sc18%3Dgateway-asset-load%26cf18%3D1136%26pc18%3D1136%26ld18%3D1136%26t18%3D1659861011654%26sc19%3DjQueryReady%26cf19%3D1137%26pc19%3D1137%26ld19%3D1137%26t19%3D1659861011655%26sc20%3DnavCF%26cf20%3D1140%26pc20%3D1140%26ld20%3D1140%26t20%3D1659861011658%26sc21%3DgwGridInit%26cf21%3D1141%26pc21%3D1141%26ld21%3D1141%26t21%3D1659861011659%26sc22%3Ddesktop-btf-grid-1-visible%26cf22%3D1203%26pc22%3D1203%26ld22%3D1203%26t22%3D1659861011721%26sc23%3Ddesktop-btf-grid-2-visible%26cf23%3D1204%26pc23%3D1204%26ld23%3D1204%26t23%3D1659861011722%26sc24%3Ddesktop-btf-grid-3-visible%26cf24%3D1205%26pc24%3D1205%26ld24%3D1205%26t24%3D1659861011723%26sc25%3Ddesktop-btf-grid-4-visible%26cf25%3D1205%26pc25%3D1205%26ld25%3D1205%26t25%3D1659861011723%26sc26%3Ddesktop-3-visible%26cf26%3D1237%26pc26%3D1237%26ld26%3D1237%26t26%3D1659861011755%26sc27%3Ddesktop-4-visible%26cf27%3D1241%26pc27%3D1241%26ld27%3D1241%26t27%3D1659861011759%26sc28%3Ddesktop-btf-grid-5-visible%26cf28%3D1242%26pc28%3D1242%26ld28%3D1242%26t28%3D1659861011760%26sc29%3Ddesktop-btf-grid-6-visible%26cf29%3D1242%26pc29%3D1242%26ld29%3D1242%26t29%3D1659861011760%26sc30%3Ddesktop-btf-grid-7-visible%26cf30%3D1243%26pc30%3D1243%26ld30%3D1243%26t30%3D1659861011761%26sc31%3Ddesktop-btf-grid-8-visible%26cf31%3D1257%26pc31%3D1257%26ld31%3D1257%26t31%3D1659861011775%26sc32%3Ddesktop-5-visible%26cf32%3D1260%26pc32%3D1260%26ld32%3D1260%26t32%3D1659861011778%26sc33%3Ddesktop-6-visible%26cf33%3D1262%26pc33%3D1262%26ld33%3D1262%26t33%3D1659861011780%26sc34%3Dhero-first-image%26cf34%3D1267%26pc34%3D1267%26ld34%3D1267%26t34%3D1659861011785%26sc35%3Ddesktop-7-visible%26cf35%3D1272%26pc35%3D1272%26ld35%3D1272%26t35%3D1659861011790%26sc36%3DgwBTFGridInit%26cf36%3D1275%26pc36%3D1275%26ld36%3D1275%26t36%3D1659861011793%26sc37%3Ddesktop-grid-1-D1-active%26cf37%3D1298%26pc37%3D1298%26ld37%3D1298%26t37%3D1659861011816%26sc38%3Ddesktop-grid-6-active%26cf38%3D1298%26pc38%3D1298%26ld38%3D1298%26t38%3D1659861011816%26sc39%3DcsmCELLSframework%26bb39%3D1360%26pc39%3D1360%26ld39%3D1360%26t39%3D1659861011878%26sc40%3DcsmCELLSpdm%26bb40%3D1361%26pc40%3D1416%26ld40%3D1416%26t40%3D1659861011934%26sc41%3DcsmCELLSvpm%26bb41%3D1416%26pc41%3D1416%26ld41%3D1416%26t41%3D1659861011934%26sc42%3DcsmCELLSfem%26bb42%3D1416%26pc42%3D1416%26ld42%3D1416%26t42%3D1659861011934%26sc43%3Due_sushi_v1%26bb43%3D1417%26pc43%3D1418%26ld43%3D1418%26t43%3D1659861011936%26sc44%3DjQueryDomReady%26cf44%3D1657%26pc44%3D1657%26ld44%3D1657%26t44%3D1659861012175%26ctb%3D1:1696,img,0,-766.4000000001397,exist only in reference
+https://www.amazon.com/rd/uedata?ld&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&sw=1280&sh=1024&vw=1017&vh=827&m=1&sc=7XXA2CZW5QPH3AJBTTNV&ue=70&bb=446&ns=554&ne=913&cf=934&af=1041&fn=1041&be=1348&fp=754&fcp=754&pc=1694&tc=-1589&na_=-1589&ul_=-1659861010518&_ul=-1659861010518&rd_=-1659861010518&_rd=-1659861010518&fe_=-1552&lk_=-1552&_lk=-1552&co_=-839&_co=-676&sc_=-787&rq_=-662&rs_=-128&_rs=151&dl_=-59&di_=1656&de_=1657&_de=1658&_dc=1694&ld_=1694&_ld=-1659861010518&ntd=0&ty=0&rc=0&hob=23&hoe=71&ld=1696&t=1659861012214&ctb=1&rt=cf:91-3-3-85-3-0-1_af:95-3-3-86-4-2-0_ld:130-9-3-114-5-2-0&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-400.39999999990687,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26sw%3D1280%26sh%3D1024%26vw%3D1017%26vh%3D827%26m%3D1%26sc%3D7XXA2CZW5QPH3AJBTTNV%26ue%3D70%26bb%3D446%26ns%3D554%26ne%3D913%26cf%3D934%26af%3D1041%26fn%3D1041%26be%3D1348%26fp%3D754%26fcp%3D754%26pc%3D1694%26tc%3D-1589%26na_%3D-1589%26ul_%3D-1659861010518%26_ul%3D-1659861010518%26rd_%3D-1659861010518%26_rd%3D-1659861010518%26fe_%3D-1552%26lk_%3D-1552%26_lk%3D-1552%26co_%3D-839%26_co%3D-676%26sc_%3D-787%26rq_%3D-662%26rs_%3D-128%26_rs%3D151%26dl_%3D-59%26di_%3D1656%26de_%3D1657%26_de%3D1658%26_dc%3D1694%26ld_%3D1694%26_ld%3D-1659861010518%26ntd%3D0%26ty%3D0%26rc%3D0%26hob%3D23%26hoe%3D71%26ld%3D1696%26t%3D1659861012214%26ctb%3D1%26rt%3Dcf%3A91-3-3-85-3-0-1_af%3A95-3-3-86-4-2-0_ld%3A130-9-3-114-5-2-0%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:1705,img,0,-438.89999999990687,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3DjQueryWindowLoad%26cf0%3D1724%26pc0%3D1724%26ld0%3D1724%26t0%3D1659861012242%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:1719,img,0,-425.60000000009313,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3DgwLayoutReady%26cf0%3D1760%26pc0%3D1760%26ld0%3D1760%26t0%3D1659861012278%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:1755,img,0,-337.69999999995343,exist only in reference
+https://m.media-amazon.com/images/I/61f1mC2g8IL._AC_SY200_.jpg,img,-3422,-71.39999999990687,exist only in reference
+https://m.media-amazon.com/images/I/81Q-c2y9e8L._AC_SY200_.jpg,img,-15280,-69.30000000004657,exist only in reference
+https://m.media-amazon.com/images/I/81M+9M5LCbL._AC_SY200_.jpg,img,-3811,-91.30000000004657,exist only in reference
+https://m.media-amazon.com/images/I/71NcH8Ed+KL._AC_SY200_.jpg,img,-2670,-266.89999999990687,exist only in reference
+https://m.media-amazon.com/images/I/61oAle1i-FS._AC_SY200_.jpg,img,-2440,-273.29999999981374,exist only in reference
+https://m.media-amazon.com/images/I/718k5Prw7AL._AC_SY200_.jpg,img,-7831,-272.30000000004657,exist only in reference
+https://m.media-amazon.com/images/I/616yNn46hoL._AC_SY200_.jpg,img,-5567,-273.0,exist only in reference
+https://m.media-amazon.com/images/I/71U6a9GhtoL._AC_SY200_.jpg,img,-6590,-264.0,exist only in reference
+https://m.media-amazon.com/images/I/61VqHnciP6L._AC_SY200_.jpg,img,-11678,-465.4000000001397,exist only in reference
+https://m.media-amazon.com/images/I/61vDfrf1ZDL._AC_SY200_.jpg,img,-4700,-463.79999999981374,exist only in reference
+https://m.media-amazon.com/images/I/71qriwT+pQL._AC_SY200_.jpg,img,-6049,-492.89999999990687,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3DgwAUIReady%26cf0%3D1770%26pc0%3D1770%26ld0%3D1770%26t0%3D1659861012288%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:1765,img,0,-553.1999999999534,exist only in reference
+https://www.amazon.com/empty.gif?1659861012460,img,-343,-566.6999999999534,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:lcp&lcp=1095&pc=2017&at=2017&t=1659861012535&csmtags=threeColumn|threeColumnRevised|flexLayout|cssGridLayout&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-575.3000000000466,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3Alcp%26lcp%3D1095%26pc%3D2017%26at%3D2017%26t%3D1659861012535%26csmtags%3DthreeColumn%7CthreeColumnRevised%7CflexLayout%7CcssGridLayout%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2012,img,0,-461.0999999998603,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=adblk_no&pc=2018&at=2018&t=1659861012536&csmtags=adblk_no&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-573.0999999998603,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dadblk_no%26pc%3D2018%26at%3D2018%26t%3D1659861012536%26csmtags%3Dadblk_no%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2013,img,0,-459.60000000009313,exist only in reference
+https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/Fuji_dash_dress_1X._SY304_CB626369146_.jpg,xmlhttprequest,0,-89.80000000004657,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Ddesktop-1-active%26cf0%3D2043%26pc0%3D2043%26ld0%3D2043%26t0%3D1659861012561%26csmtags%3Daui%3Asw%3Abrowser%3Aunregister%3Asupported%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2038,img,0,-402.30000000004657,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Ddesktop-2-active%26cf0%3D2054%26pc0%3D2054%26ld0%3D2054%26t0%3D1659861012572%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2049,img,0,-401.89999999990687,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Ddesktop-3-active%26cf0%3D2064%26pc0%3D2064%26ld0%3D2064%26t0%3D1659861012582%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2059,img,0,-402.4000000001397,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:startVL&pc=2154&at=2154&t=1659861012672&csmtags=startVL&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-753.0,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3AstartVL%26pc%3D2154%26at%3D2154%26t%3D1659861012672%26csmtags%3DstartVL%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2149,img,0,-415.5,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:vl50&vl50=565&pc=2155&at=2155&t=1659861012673&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-468.19999999995343,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3Avl50%26vl50%3D565%26pc%3D2155%26at%3D2155%26t%3D1659861012673%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2150,img,0,-416.69999999995343,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:vl90&vl90=939&pc=2155&at=2155&t=1659861012673&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-467.0,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3Avl90%26vl90%3D939%26pc%3D2155%26at%3D2155%26t%3D1659861012673%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2151,img,0,-416.19999999995343,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:vl100&vl100=1041&pc=2156&at=2156&t=1659861012674&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-669.3000000000466,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3Avl100%26vl100%3D1041%26pc%3D2156%26at%3D2156%26t%3D1659861012674%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2151,img,0,-416.0,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:endVL&pc=2156&at=2156&t=1659861012674&csmtags=endVL&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-750.0,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3AendVL%26pc%3D2156%26at%3D2156%26t%3D1659861012674%26csmtags%3DendVL%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2151,img,0,-413.60000000009313,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:si&si=653&pc=2156&at=2156&t=1659861012674&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-668.7000000001863,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3Asi%26si%3D653%26pc%3D2156%26at%3D2156%26t%3D1659861012674%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2151,img,0,-412.30000000004657,exist only in reference
+https://www.amazon.com/rd/uedata?at&v=0.228980.0&id=7XXA2CZW5QPH3AJBTTNV&m=1&sc=csa:atfsi&atfsi=653&pc=2156&at=2156&t=1659861012674&pty=Gateway&spty=desktop&pti=desktop&tid=7XXA2CZW5QPH3AJBTTNV&aftb=1,img,-371,-667.8000000000466,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fat%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26m%3D1%26sc%3Dcsa%3Aatfsi%26atfsi%3D653%26pc%3D2156%26at%3D2156%26t%3D1659861012674%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2151,img,0,-412.70000000018626,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Ddesktop-4-active%26cf0%3D2163%26pc0%3D2163%26ld0%3D2163%26t0%3D1659861012681%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2158,img,0,-360.10000000009313,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Ddesktop-5-active%26cf0%3D2167%26pc0%3D2167%26ld0%3D2167%26t0%3D1659861012685%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2162,img,0,-359.0,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Ddesktop-6-active%26cf0%3D2173%26pc0%3D2173%26ld0%3D2173%26t0%3D1659861012691%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2168,img,0,-359.9000000001397,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Ddesktop-7-active%26cf0%3D2178%26pc0%3D2178%26ld0%3D2178%26t0%3D1659861012696%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2174,img,0,-360.60000000009313,exist only in reference
+https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101732a829e103ef11354cf7c1309ed922a1b53f34c87541b12c963e91fa7e72304&old_oo=0&ts=1659861010348&s=Aa3TYDhWZj4t63ujGxkvOhRknaRWrN4-EpG1tpfkM91P&gdpr_consent=&gdpr_consent_avl=&cb=1659861010348,iframe,0,-619.9000000001397,exist only in reference
+https://www.amazon.com/portal-migration/hz/glow/get-rendered-toaster?pageType=Gateway&aisTransitionState=in&rancorLocationSource=IP_GEOLOCATION&_=1659861013077,xmlhttprequest,-1129,-255.0,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Dgw-hero-btf-populate%26cf0%3D2637%26pc0%3D2637%26ld0%3D2637%26t0%3D1659861013155%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2632,img,0,-275.0,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3DgwHerotatorActive%26cf0%3D2715%26pc0%3D2715%26ld0%3D2715%26t0%3D1659861013233%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2710,img,0,-199.39999999990687,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Dglow-toaster-api-timer-DESKTOP%26bb0%3D2558%26pc0%3D2896%26ld0%3D2896%26t0%3D1659861013414%26csmtags%3Daui%7Caui%3Aajax%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2891,img,0,-220.80000000004657,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Dgw-ftGr-desktop-hero-2-visible%26cf0%3D2938%26pc0%3D2938%26ld0%3D2938%26t0%3D1659861013456%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2934,img,0,-179.69999999995343,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Dgw-ftGr-desktop-hero-4-visible%26cf0%3D2943%26pc0%3D2943%26ld0%3D2943%26t0%3D1659861013461%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2938,img,0,-181.10000000009313,exist only in reference
+https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:146-2212464-6392567:7XXA2CZW5QPH3AJBTTNV$uedata=s:%2Frd%2Fuedata%3Fld%26v%3D0.228980.0%26id%3D7XXA2CZW5QPH3AJBTTNV%26ctb%3D1%26sc0%3Dgw-ftGr-desktop-hero-3-visible%26cf0%3D2944%26pc0%3D2944%26ld0%3D2944%26t0%3D1659861013462%26pty%3DGateway%26spty%3Ddesktop%26pti%3Ddesktop%26tid%3D7XXA2CZW5QPH3AJBTTNV%26aftb%3D1:2939,img,0,-185.19999999995343,exist only in reference
+

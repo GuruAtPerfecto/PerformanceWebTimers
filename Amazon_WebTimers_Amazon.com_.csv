@@ -1,0 +1,12 @@
+id, name, date, time, page, OS name, OS version, browser name, browser version, duration, network, http Request, http response, build DOM, render, total resources, total resources size, total resources duration
+0,Amazon Home,2022-08-07,14:00:13,https://www.amazon.com/,WINDOWS,10,Chrome,104,3314,913,534,279,1506,68,300,2971487,102422.0
+0,Amazon Home,2022-08-07,14:02:49,https://www.amazon.com/,WINDOWS,10,Chrome,104,2964,728,145,274,827,989,291,3091789,110305.40000000014
+0,Amazon Home,2022-08-07,20:47:23,https://www.amazon.com/,WINDOWS,10,Chrome,104,4581,64,166,256,2791,1256,292,2996109,136895.7999999997
+0,Amazon Home,2022-08-08,12:36:19,https://www.amazon.com/,WINDOWS,10,Chrome,104,2830,93,143,135,2393,66,300,2786701,193214.89999999944
+0,Amazon Home,2022-08-08,12:57:15,https://www.amazon.com/,WINDOWS,10,Chrome,104,4433,114,187,280,2326,1524,300,3303666,121171.70000000438
+0,Amazon Home,2022-08-08,13:25:22,https://www.amazon.com/,WINDOWS,10,Chrome,104,3370,78,214,170,2791,60,300,2784248,182541.99999999965
+0,Amazon Home,2022-08-08,16:17:46,https://www.amazon.com/,WINDOWS,10,Chrome,104,3405,56,152,133,1313,1751,289,3042453,118855.10000000033
+0,Amazon Home,2022-08-08,16:28:24,https://www.amazon.com/,WINDOWS,10,Chrome,104,1200,154,157,41,786,61,48,453490,9780.000000001397
+0,Amazon Home,2022-08-08,16:29:53,https://www.amazon.com/,WINDOWS,10,Chrome,104,3789,42,201,114,1423,2008,49,464062,24822.700000000652
+0,Amazon Home,2022-08-08,16:36:43,https://www.amazon.com/,WINDOWS,10,Chrome,104,3038,80,152,280,1065,1461,298,3022440,149904.50000000093
+0,Amazon Home,2022-08-08,16:44:59,https://www.amazon.com/,WINDOWS,10,Chrome,104,4401,173,156,290,2570,1211,287,3008894,120218.39999999898
