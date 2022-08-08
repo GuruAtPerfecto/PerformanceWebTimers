@@ -1,0 +1,14 @@
+.gradle/
+.idea/
+WebTimers.iml
+build.gradle
+gradle/
+gradlew
+gradlew.bat
+out/
+target/
+test-output
+.DS_Store
+.classpath
+.project
+.settings/
