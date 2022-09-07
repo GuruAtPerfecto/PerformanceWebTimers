@@ -1,4 +1,4 @@
-package main.java.newTest;
+package main.java.webTimerTest;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
 import main.java.perfecto.CSVHandler;
@@ -47,7 +47,11 @@ public class WebPageTimersClass {
         this.OSName = w.getCapabilities().getCapability("platformName").toString();
         this.OSVersion = w.getCapabilities().getCapability("platformVersion").toString();
         this.browserName = w.getCapabilities().getCapability("browserName").toString();
-        this.browserVersion = w.getCapabilities().getCapability("browserVersion").toString();
+        if(!(this.OSName.equalsIgnoreCase("Android") || this.OSName.equalsIgnoreCase("iOS")))
+            this.browserVersion = w.getCapabilities().getCapability("browserVersion").toString();
+        else
+            this.browserVersion = "Empty";
+
 
 //        // build the page timers from the driver
 //        Map<String,String> pageTimers = new HashMap<String,String>();
@@ -108,7 +112,7 @@ public class WebPageTimersClass {
     }
 
     //  ************* In order to build a global data provider to compare against
-    public static WebPageTimersClass buildWebPageTimersClassfromCSV(NewTestClass.DataRepo repo) {
+    public static WebPageTimersClass buildWebPageTimersClassfromCSV(webTimerTestClass.DataRepo repo) {
         // TODO define WEB_TIMERS_FILE_NAME environment variable in order to set where the project will attempt to read previously recorded page timers. For example: webTimers.csv
        // String fileName = System.getenv().get("LOCAL_PATH");
     	String fileName = System.getProperty("LOCAL_PATH");
@@ -302,6 +306,10 @@ public class WebPageTimersClass {
         returnMap.put("BaseAvgDuration", avg.toString());
         returnMap.put("BaseMaxDuration", max.toString());
         returnMap.put("BaseMinDuration", min.toString());
+        returnMap.put("BrowserName", browserName.toString());
+        returnMap.put("PlatformName", OSName.toString());
+
+
 
 
         switch(method){
@@ -309,23 +317,31 @@ public class WebPageTimersClass {
                 System.out.println("comparing current: "+duration +" against base reference: "+ reference.duration);
                 //return (duration - reference.duration) > KPI;
                 returnMap.put("TestConditionResult", String.valueOf(((duration > reference.duration) ||  (duration > KPI))));
+                returnMap.put("ComparisonMethod", "comparing current: "+duration +" against base reference: "+ reference.duration);
+
                 //return ((duration > reference.duration) ||  (duration > KPI));
                 return returnMap;
             case VS_AVG:
                 System.out.println("comparing current: "+duration +" against AVG: "+ avg);
                 //return (duration - avg) > KPI;
                 returnMap.put("TestConditionResult", String.valueOf(((duration > avg) ||  (duration > KPI))));
-               // return ((duration > avg) ||  (duration > KPI));
+                returnMap.put("ComparisonMethod", "comparing current: "+duration +" against AVG: "+ avg);
+
+                // return ((duration > avg) ||  (duration > KPI));
                 return returnMap;
             case VS_MAX:
-                System.out.println("comparing current: \"+duration +\"  against AVG: "+ max);
+                System.out.println("comparing current: "+duration +"  against Max: "+ max);
                 //return (duration - max) > KPI;
                 returnMap.put("TestConditionResult", String.valueOf((duration - max) > KPI));
+                returnMap.put("ComparisonMethod", "comparing current: "+duration +"  against Max: "+ max);
+
                 return returnMap;
             case VS_MIN:
                 System.out.println("comparing current: \"+duration +\"  against min: "+ min);
                 //return (duration - min) > KPI;
                 returnMap.put("TestConditionResult", String.valueOf((duration - min) > KPI));
+                returnMap.put("ComparisonMethod", "comparing current: "+duration +"  against Min: "+ min);
+
                 return returnMap;
             default:
                 System.out.println("comparing current: \"+duration +\"  against AVG method was not defined N/A: "+ avg);

@@ -1,4 +1,4 @@
-package main.java.newTest;
+package main.java.webTimerTest;
 
 import static main.java.perfecto.CSVHandler.COMMA_DELIMITER;
 

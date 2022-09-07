@@ -1,27 +1,24 @@
-package main.java.newTest;
+package main.java.webTimerTest;
 import com.perfecto.reportium.client.ReportiumClient;
 import com.perfecto.reportium.client.ReportiumClientFactory;
 import com.perfecto.reportium.model.Job;
 import com.perfecto.reportium.model.PerfectoExecutionContext;
 import com.perfecto.reportium.model.Project;
 import com.perfecto.reportium.test.TestContext;
-import com.perfecto.reportium.test.result.TestResult;
 import com.perfecto.reportium.test.result.TestResultFactory;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 
-import main.java.newTest.WebPageTimersClass.CompareMethod;
+import main.java.webTimerTest.WebPageTimersClass.CompareMethod;
 import main.java.perfecto.*;
+import org.testng.annotations.Optional;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 
-public class NewTestClass {
+public class webTimerTestClass {
     RemoteWebDriver driver;
     ReportiumClient reportiumClient;
     WebPageTimersClass pageTimers;
@@ -44,12 +41,13 @@ public class NewTestClass {
 
     @Parameters({"platformName", "platformVersion", "browserName", "browserVersion", "screenResolution"})
     @BeforeTest
-    public void beforeTest(String platformName, String platformVersion, String browserName, String browserVersion, String screenResolution) throws IOException {
+    public void beforeTest(String platformName, @Optional("Empty") String platformVersion, @Optional("Empty") String browserName, @Optional("Empty") String browserVersion, @Optional("Empty") String screenResolution) throws IOException {
         System.out.println("===>>> Entering: NewTestClass.beforeTest()" );
+        System.out.println(System.getProperty("reportium-job-name") + Integer.parseInt(System.getProperty("reportium-job-number")));
         driver = Utils.getRemoteWebDriver(platformName, platformVersion, browserName, browserVersion, screenResolution);
         PerfectoExecutionContext perfectoExecutionContext = new PerfectoExecutionContext.PerfectoExecutionContextBuilder()
                 .withProject(new Project("My Project", "1.0"))
-                .withJob(new Job("My Job", 45))
+                .withJob(new Job(System.getProperty("reportium-job-name"), Integer.parseInt(System.getProperty("reportium-job-number"))))
                 .withContextTags("tag1")
                 .withWebDriver(driver)
                 .build();
@@ -58,7 +56,7 @@ public class NewTestClass {
     }
 
     @Test
-    public void testAmazonHomePageLoad() {
+    public void testAmazonHomePageLoad() throws Exception {
         try {
             System.out.println("===>>> Entering: NewTestClass.testAmazonHomePageLoad()" );
             reportiumClient.testStart("Perfecto Web Timers Test - Amazon Home Page", new TestContext("Performance", "Amazon"));
@@ -70,7 +68,7 @@ public class NewTestClass {
             pageTimers = new WebPageTimersClass(driver, "Amazon Home");
             
             // compare vs. previous page, set the comparison method, Min/Max/Avg and KPI(expected page load time in mili seconds)
-            String analyzeResult = analyzeWebTimers("Amazon.com", 3000, WebPageTimersClass.CompareMethod.VS_BASE);
+            String analyzeResult = analyzeWebTimers("Amazon.com", 5000, WebPageTimersClass.CompareMethod.VS_BASE);
             
             if(analyzeResult != null)
             	throw new Exception(analyzeResult);
@@ -84,13 +82,13 @@ public class NewTestClass {
         		reportiumClient.testStop(TestResultFactory.createFailure(e.getMessage(), e));
         	}
             //
-            e.printStackTrace();
+            throw new Exception(e.toString());
         }
         System.out.println("===>>> Exiting: NewTestClass.test()" );
     }
 
     @Test
-    public void testSearchAmazonQualityDevOpsBook() {
+    public void testSearchAmazonQualityDevOpsBook() throws Exception {
         try {
             System.out.println("===>>> Entering: NewTestClass.testSearchAmazonQualityDevOpsBook()" );
             reportiumClient.testStart("Perfecto Web Timers Test - Amazon Search Qulity DevOps Book", new TestContext("Performance", "Quality DevOps Book"));
@@ -98,18 +96,19 @@ public class NewTestClass {
 
             driver.get("http://www.amazon.com");
 
-            driver.findElementById("twotabsearchtextbox").sendKeys("The Digital Qulity Handbook");
-            driver.findElementById("twotabsearchtextbox").submit();
-            driver.findElement(By.xpath("//a[contains(@href, 'Quality')]")).click();
+            driver.findElementById("twotabsearchtextbox").sendKeys("The Digital Quality Handbook");
+            //driver.findElementById("twotabsearchtextbox").submit();
+            driver.findElementById("nav-search-submit-button").click();
+
+            driver.findElement(By.xpath("//a[contains(@href, 'Digital-Quality')]")).click();
             driver.findElementById("add-to-cart-button");
 
             pageTimers = new WebPageTimersClass(driver, "Quality DevOPS Book");
             // compare vs. previous page, set the comparison method, Min/Max/Avg and KPI(expected page load time in mili seconds)
-            String analyzeResult = analyzeWebTimers("Quality_DevOPS",  3000, WebPageTimersClass.CompareMethod.VS_AVG);
-            
+            String analyzeResult = analyzeWebTimers("Quality_DevOPS",  5000, WebPageTimersClass.CompareMethod.VS_AVG);
+
             if(analyzeResult != null)
             	throw new Exception(analyzeResult);
-
             reportiumClient.testStop(TestResultFactory.createSuccess());
         } catch (Exception e) {
         	if(e.toString().contains("took much longer to load")) {
@@ -119,11 +118,12 @@ public class NewTestClass {
         		reportiumClient.testStop(TestResultFactory.createFailure(e.getMessage(), e));
         	}
             //
-            e.printStackTrace();
+            throw new Exception(e.toString());
+
         }
         System.out.println("===>>> Exiting: NewTestClass.test()" );
     }
-    
+
     @AfterTest
     public void afterTest() {
         System.out.println("===>>> Entering: NewTestClass.afterTest()" );
@@ -142,27 +142,35 @@ public class NewTestClass {
     }
 
 
-    private String analyzeWebTimers(String pageName, int KPI, CompareMethod method) {
+    private String analyzeWebTimers(String pageName, int KPI, CompareMethod method) throws NoSuchFieldException, IllegalAccessException {
         System.out.println("===>>> Entering: NewTestClass.analyzeWebTimers()" );
         // find the reference object to compare against this page
         int i = Arrays.asList(pagesToTest).indexOf(pageName);
         String Errormessage = null;
         Boolean slowPageLoad = false;
-        System.out.println(_references.get(i)._baseReference);
+
         System.out.println(_references.get(i).minDuration);
         System.out.println(_references.get(i).maxDuration);
         System.out.println(_references.get(i).avgDuration);
 
+        Map<String,String> ValueMap = new HashMap<String,String>();
 
         // compare vs. previous page, set the comparison method, Min/Max/Avg and KPI
-        if (pageTimers.comparePagePerformance(KPI, method, _references.get(i)._baseReference, _references.get(i).minDuration, _references.get(i).maxDuration,
-                _references.get(i).avgDuration)) {
-        	slowPageLoad = true;
+        ValueMap = pageTimers.comparePagePerformance(KPI, method, _references.get(i)._baseReference, _references.get(i).minDuration, _references.get(i).maxDuration,
+                _references.get(i).avgDuration);
+        if (ValueMap.get("TestConditionResult").equalsIgnoreCase("true")) {
+            slowPageLoad = true;
             System.out.println("Page "+ pageTimers.getRunName()+ " took much longer to load!!! ");
-            Errormessage = "Failed! the Page "+ pageTimers.getRunName()+ " took much longer to load!!! \n";
-//            		+ "current page Duration = " + this.pageTimers+ "\n"
-//            		+ "Base Reference Duration = " + _references.get(i)._baseReference + "\n";
-//            		+ "Average Reference = " + _references.get(i).maxDuration + "\n";
+            Errormessage = "Failed! the Page "+ pageTimers.getRunName()+ " took much longer to load!!! \n"
+                    + "Browser Name = " + ValueMap.get("BrowserName")+ "\n"
+                    + "Platform Name = " + ValueMap.get("PlatformName")+ "\n"
+            		+ "current page Duration = " + ValueMap.get("CurrentPageDuration")+ "\n"
+            		+ "Base Reference Duration = " +  ValueMap.get("BaseReference") + "\n"
+            		+ "Base Average Duration = " + ValueMap.get("BaseAvgDuration") + "\n"
+                    + "Base Max Reference = " + ValueMap.get("BaseAvgDuration") + "\n"
+                    + "Base Average Reference = " + ValueMap.get("BaseAvgDuration") + "\n"
+                    + "Comparison Method = " + ValueMap.get("ComparisonMethod") + "\n"
+                    + "KPI = " + KPI + "\n";
         }
         pageTimers.appendToCSV(pageName);
         // analyze and compare the page vs. reference and print to CSV
@@ -176,13 +184,15 @@ public class NewTestClass {
     // this is a data repo for each page in the test for comparison based on previously recorded data
     class DataRepo{
         WebPageTimersClass _baseReference;
-        Long minDuration, maxDuration, avgDuration;
+        Double minDuration;
+        Double maxDuration;
+		double avgDuration;
         String pageName;
         public DataRepo(String pageName){
             super();
             this.pageName = pageName;
-            minDuration=Long.MAX_VALUE;
-            maxDuration = 0L;
+            minDuration=Double.MAX_VALUE;
+            maxDuration = (double) 0L;
             avgDuration = 0L;
         }
     }

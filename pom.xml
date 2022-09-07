@@ -10,6 +10,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      	<reportium-sdk.version>2.3.1</reportium-sdk.version>
+		<reportiumjobname> ${reportium-job-name} </reportiumjobname>
+		<reportiumjobnumber> $reportium-job-number} </reportiumjobnumber>
+
 	</properties>
 
 	<repositories>

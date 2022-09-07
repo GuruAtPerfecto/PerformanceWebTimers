@@ -81,19 +81,28 @@ public class Utils {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		//capabilities.setCapability("user", PERFECTO_USER);
 		//capabilities.setCapability("password", PERFECTO_PASSWORD);
-		capabilities.setCapability("securityToken", PERFECTO_SECURITY_TOKEN);
 		capabilities.setCapability("platformName", platformName);
-		capabilities.setCapability("platformVersion", platformVersion);
 		capabilities.setCapability("browserName", browserName);
-		capabilities.setCapability("browserVersion", browserVersion);
-		capabilities.setCapability("location", "EU Frankfurt");
+		capabilities.setCapability("securityToken", PERFECTO_SECURITY_TOKEN);
+
+
+		if(!(platformName.equalsIgnoreCase("Android") || platformName.equalsIgnoreCase("iOS"))) {
+			capabilities.setCapability("platformVersion", platformVersion);
+			capabilities.setCapability("browserVersion", browserVersion);
+		} else {
+			capabilities.setCapability("enableAppiumBehavior", "true");
+			capabilities.setCapability("useAppiumForWeb", "true");
+
+		}
+		//capabilities.setCapability("location", "US East");
 // Invoke the WAVE toolbar on browser launch
 //		ChromeOptions options = new ChromeOptions();
 //        options.addArguments("load-extension=C:\\Users\\perfecto\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Extensions\\jbbplnpkjmmeebjpijfedlgcdilocofh\\1.0.1_0");
 //        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
 
-		if (!screenResolution.isEmpty()) {
+//		if (!screenResolution.isEmpty()) {
+		if (!screenResolution.equalsIgnoreCase("Empty")) {
 			capabilities.setCapability("resolution", screenResolution);
 			System.out.println("Creating Remote WebDriver on: " + platformName + " " + platformVersion + ", " + browserName + " " + browserVersion + ", " + screenResolution);
 		}

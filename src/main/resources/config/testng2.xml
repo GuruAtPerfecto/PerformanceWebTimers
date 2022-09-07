@@ -10,7 +10,7 @@
 
 
 		<classes>
-			<class name="main.java.newTest.NewTestClass"/>
+			<class name="main.java.webTimerTest.webTimerTestClass"/>
 		</classes>
 	</test> <!-- Test -->
 	<test name="Test_Firefox" enabled="false">
@@ -21,7 +21,7 @@
 		<parameter name="screenResolution" value="1280x1024" />
 
 		<classes>
-			<class name="main.java.newTest.NewTestClass"/>
+			<class name="main.java.webTimerTest.webTimerTestClass"/>
 		</classes>
 	</test> <!-- Test -->
 	<test name="Test_Edge" enabled="false">
@@ -32,7 +32,7 @@
 		<parameter name="screenResolution" value="1280x1024" />
 
 		<classes>
-			<class name="main.java.newTest.NewTestClass"/>
+			<class name="main.java.webTimerTest.webTimerTestClass"/>
 		</classes>
 	</test> <!-- Test -->
 	<test name="Test_Chrome_Win_7" enabled="false">
@@ -43,7 +43,7 @@
 		<parameter name="screenResolution" value="1280x1024" />
 
 		<classes>
-			<class name="main.java.newTest.NewTestClass"/>
+			<class name="main.java.webTimerTest.webTimerTestClass"/>
 		</classes>
 	</test> <!-- Test -->
 

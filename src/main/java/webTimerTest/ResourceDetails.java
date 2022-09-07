@@ -1,4 +1,4 @@
-package main.java.newTest;
+package main.java.webTimerTest;
 
 import static main.java.perfecto.CSVHandler.COMMA_DELIMITER;
 
@@ -9,8 +9,6 @@ public class ResourceDetails {
     private double duration;
     private String comparisonResult;
     static final String RESOURCE_DETAIL_CSV_FILE_HEADER = "name, type, size, duration, comparison result";
-
-
 
 
     // ************* Getters and Setters

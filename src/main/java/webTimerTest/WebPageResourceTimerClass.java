@@ -1,4 +1,4 @@
-package main.java.newTest;
+package main.java.webTimerTest;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
 import main.java.perfecto.CSVHandler;
@@ -10,8 +10,8 @@ import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import static main.java.newTest.ResourceDetails.RESOURCE_DETAIL_CSV_FILE_HEADER;
-import static main.java.newTest.ResourceTypeStats.PAGE_TYPE_CSV_FILE_HEADER;
+import static main.java.webTimerTest.ResourceDetails.RESOURCE_DETAIL_CSV_FILE_HEADER;
+import static main.java.webTimerTest.ResourceTypeStats.PAGE_TYPE_CSV_FILE_HEADER;
 import static main.java.perfecto.CSVHandler.COMMA_DELIMITER;
 import static main.java.perfecto.CSVHandler.NEW_LINE_SEPARATOR;
 
@@ -68,7 +68,10 @@ public class WebPageResourceTimerClass {
         this.OSName = w.getCapabilities().getCapability("platformName").toString();
         this.OSVersion = w.getCapabilities().getCapability("platformVersion").toString();
         this.browserName = w.getCapabilities().getCapability("browserName").toString();
-        this.browserVersion = w.getCapabilities().getCapability("browserVersion").toString();
+        if(!(this.OSName.equalsIgnoreCase("Android") || this.OSName.equalsIgnoreCase("iOS")))
+            this.browserVersion = w.getCapabilities().getCapability("browserVersion").toString();
+        else
+            this.browserVersion = "Empty";
         this.resourceDetailsArray = new ArrayList<ResourceDetails>();
         this.resourceTypeStats = new ArrayList<ResourceTypeStats>();
         this.pageTypeDiff = new ArrayList<ResourceTypeStats>();
