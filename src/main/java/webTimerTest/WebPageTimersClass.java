@@ -22,7 +22,7 @@ public class WebPageTimersClass {
     private String page;
     private String OSName, OSVersion, browserName, browserVersion;
     // page level timers
-    private long duration,
+    private Double duration,
     networkTime,
     httpRequest,
     httpResponse,
@@ -49,10 +49,16 @@ public class WebPageTimersClass {
         this.browserName = w.getCapabilities().getCapability("browserName").toString();
         this.browserVersion = w.getCapabilities().getCapability("browserVersion").toString();
 
+//        // build the page timers from the driver
+//        Map<String,String> pageTimers = new HashMap<String,String>();
+//        Object pageTimersO =  w.executeScript("var a =  window.performance.timing ;     return a; ", pageTimers);
+//        organizePageTimers_OldTimer ((Map<String, Double>) pageTimersO);
+//        
         // build the page timers from the driver
-        Map<String,String> pageTimers = new HashMap<String,String>();
-        Object pageTimersO =  w.executeScript("var a =  window.performance.timing ;     return a; ", pageTimers);
-        organizePageTimers ((Map<String, Long>) pageTimersO);
+        Map<String,String> pageTimers1 = new HashMap<String,String>();
+        Object pageTimers2 =  w.executeScript("var a =  performance.getEntriesByType(\"navigation\")[0] ;     return a; ", pageTimers1);
+        organizePageTimers ((Map<String, Double>) pageTimers2);
+        
         resourceTimers = new WebPageResourceTimerClass(w, name);
     }
 
@@ -70,12 +76,12 @@ public class WebPageTimersClass {
         this.OSVersion = tokens[PageTimers.OS_VERSION.ordinal()];
         this.browserName = tokens[PageTimers.BROWSER_NAME.ordinal()];
         this.browserVersion = tokens[PageTimers.BROWSER_VERSION.ordinal()];
-        this.duration = Long.parseLong(tokens[PageTimers.DURATION.ordinal()]);
-        this.networkTime = Long.parseLong(tokens[PageTimers.NETWORK.ordinal()]);
-        this.httpRequest = Long.parseLong(tokens[PageTimers.HTTPREQ.ordinal()]);
-        this.httpResponse = Long.parseLong(tokens[PageTimers.HTTPRES.ordinal()]);
-        this.buildDOM = Long.parseLong(tokens[PageTimers.BUILDDOM.ordinal()]);
-        this.render = Long.parseLong(tokens[PageTimers.RENDER.ordinal()]);
+        this.duration = Double.parseDouble(tokens[PageTimers.DURATION.ordinal()]);
+        this.networkTime = Double.parseDouble(tokens[PageTimers.NETWORK.ordinal()]);
+        this.httpRequest = Double.parseDouble(tokens[PageTimers.HTTPREQ.ordinal()]);
+        this.httpResponse = Double.parseDouble(tokens[PageTimers.HTTPRES.ordinal()]);
+        this.buildDOM = Double.parseDouble(tokens[PageTimers.BUILDDOM.ordinal()]);
+        this.render = Double.parseDouble(tokens[PageTimers.RENDER.ordinal()]);
         // build the rest of resource data from CSV
         this.resourceTimers = WebPageResourceTimerClass.buildWebPageTimersClassfromCSV(fileNameAdd);
     }
@@ -92,12 +98,12 @@ public class WebPageTimersClass {
         this.OSVersion = "base";
         this.browserName = "base";
         this.browserVersion = "base";
-        this.duration = 0L;
-        this.networkTime = 0L;
-        this.httpRequest = 0L;
-        this.httpResponse = 0L;
-        this.buildDOM = 0L;
-        this.render = 0L;
+        this.duration = (double) 0L;
+        this.networkTime = (double) 0L;
+        this.httpRequest = (double) 0L;
+        this.httpResponse = (double) 0L;
+        this.buildDOM = (double) 0L;
+        this.render = (double) 0L;
         this.resourceTimers = new WebPageResourceTimerClass();
     }
 
@@ -144,19 +150,49 @@ public class WebPageTimersClass {
         else return baseReferenceToReturn;
     }
 
-    private void organizePageTimers( Map<String, Long> data)
+    
+    private void organizePageTimers_OldTimer( Map<String, Double> data)
     {
         // see https://developer.mozilla.org/en-US/docs/Web/API/Resource_Timing_API/Using_the_Resource_Timing_API
-        long navStart = data.get("navigationStart");
-        long loadEventEnd = data.get("loadEventEnd");
-        long connectEnd = data.get("connectEnd");
-        long requestStart = data.get("requestStart");
-        long responseStart = data.get("responseStart");
-        long responseEnd = data.get("responseEnd");
-        long domLoaded = data.get("domContentLoadedEventStart");
+        double navStart = data.get("navigationStart");
+        double loadEventEnd = data.get("loadEventEnd");
+        double connectEnd = data.get("connectEnd");
+        double requestStart = data.get("requestStart");
+        double responseStart = data.get("responseStart");
+        double responseEnd = data.get("responseEnd");
+        double domLoaded = data.get("domContentLoadedEventStart");
 
         this.duration = loadEventEnd - navStart;
         this.networkTime = connectEnd - navStart;
+        this.httpRequest = responseStart - requestStart;
+        this.httpResponse = responseEnd - responseStart;
+        this.buildDOM = domLoaded - responseEnd;
+        this.render = loadEventEnd - domLoaded;
+        
+        
+        
+
+        // in Edge, sometimes loadEventEnd is reported 0. Fun!
+        if (0 >= this.duration) {
+            this.duration = networkTime + httpRequest + httpResponse + buildDOM;
+            this.render = (double) 0;
+        }
+        System.out.println("Page Timing: " +  this.toString());
+    }
+    
+    private void organizePageTimers( Map<String, Double> data)
+    {
+        // see https://developer.mozilla.org/en-US/docs/Web/API/Resource_Timing_API/Using_the_Resource_Timing_API
+
+        Double loadEventEnd = convertDouble(data.get("loadEventEnd"));
+        Double connectEnd = convertDouble(data.get("connectEnd"));
+        Double requestStart = convertDouble(data.get("requestStart"));
+        Double responseStart = convertDouble(data.get("responseStart"));
+        Double responseEnd = convertDouble(data.get("responseEnd"));
+        Double domLoaded = convertDouble(data.get("domContentLoadedEventStart"));
+
+        this.duration =  convertDouble(data.get("duration"));
+        this.networkTime = connectEnd;
         this.httpRequest = responseStart - requestStart;
         this.httpResponse = responseEnd - responseStart;
         this.buildDOM = domLoaded - responseEnd;
@@ -165,11 +201,23 @@ public class WebPageTimersClass {
         // in Edge, sometimes loadEventEnd is reported 0. Fun!
         if (0 >= this.duration) {
             this.duration = networkTime + httpRequest + httpResponse + buildDOM;
-            this.render = 0;
+            this.render = (double) 0;
         }
         System.out.println("Page Timing: " +  this.toString());
     }
 
+
+    public static double convertDouble(Object longValue){
+        double valueTwo = -1; // whatever to state invalid!
+
+        if( longValue instanceof Long)
+            valueTwo = ((Long) longValue).doubleValue();
+        else
+            valueTwo = (Double) longValue;
+        System.out.println(valueTwo);
+        return valueTwo;
+    }
+    
     public String getRunName(){
         return this.runName;
     }
@@ -247,27 +295,43 @@ public class WebPageTimersClass {
 
 
     // compare current page load time vs. whats been recorded in past runs
-    public boolean comparePagePerformance(int KPI, CompareMethod method, WebPageTimersClass reference, Long min, Long max, Long avg){
+    public Map<String, String> comparePagePerformance(int KPI, CompareMethod method, WebPageTimersClass reference, Double min, Double max, Double avg){
+        Map<String,String> returnMap = new HashMap<String,String>();
+        returnMap.put("CurrentPageDuration", duration.toString());
+        returnMap.put("BaseReference", reference.duration.toString());
+        returnMap.put("BaseAvgDuration", avg.toString());
+        returnMap.put("BaseMaxDuration", max.toString());
+        returnMap.put("BaseMinDuration", min.toString());
+
+
         switch(method){
             case VS_BASE:
                 System.out.println("comparing current: "+duration +" against base reference: "+ reference.duration);
                 //return (duration - reference.duration) > KPI;
-                return ((duration > reference.duration) ||  (duration > KPI));
+                returnMap.put("TestConditionResult", String.valueOf(((duration > reference.duration) ||  (duration > KPI))));
+                //return ((duration > reference.duration) ||  (duration > KPI));
+                return returnMap;
             case VS_AVG:
                 System.out.println("comparing current: "+duration +" against AVG: "+ avg);
                 //return (duration - avg) > KPI;
-                return ((duration > avg) ||  (duration > KPI));
-
+                returnMap.put("TestConditionResult", String.valueOf(((duration > avg) ||  (duration > KPI))));
+               // return ((duration > avg) ||  (duration > KPI));
+                return returnMap;
             case VS_MAX:
                 System.out.println("comparing current: \"+duration +\"  against AVG: "+ max);
-                return (duration - max) > KPI;
+                //return (duration - max) > KPI;
+                returnMap.put("TestConditionResult", String.valueOf((duration - max) > KPI));
+                return returnMap;
             case VS_MIN:
                 System.out.println("comparing current: \"+duration +\"  against min: "+ min);
-                return (duration - min) > KPI;
+                //return (duration - min) > KPI;
+                returnMap.put("TestConditionResult", String.valueOf((duration - min) > KPI));
+                return returnMap;
             default:
                 System.out.println("comparing current: \"+duration +\"  against AVG method was not defined N/A: "+ avg);
-                return false;
-
+                //return false;
+                returnMap.put("TestConditionResult", "false");
+                return returnMap;
         }
 
     }
