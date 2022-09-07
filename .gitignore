@@ -12,4 +12,4 @@ test-output
 .classpath
 .project
 .settings/
-.csv
+*.csv
