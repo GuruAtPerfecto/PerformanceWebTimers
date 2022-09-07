@@ -168,7 +168,6 @@ public class webTimerTestClass {
             		+ "Base Reference Duration = " +  ValueMap.get("BaseReference") + "\n"
             		+ "Base Average Duration = " + ValueMap.get("BaseAvgDuration") + "\n"
                     + "Base Max Reference = " + ValueMap.get("BaseAvgDuration") + "\n"
-                    + "Base Average Reference = " + ValueMap.get("BaseAvgDuration") + "\n"
                     + "Comparison Method = " + ValueMap.get("ComparisonMethod") + "\n"
                     + "KPI = " + KPI + "\n";
         }
